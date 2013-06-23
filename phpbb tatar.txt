@@ -1,0 +1,140 @@
+2013 06 22
+1908-
+https://www.phpbb.com/languages/
+https://www.phpbb.com/languages/apply.php
+https://www.phpbb.com/languages/index.php?first_char=t#package_list
+https://www.phpbb.com/customise/db/translation/british_english/
+
+
+
+
+
+
+
+
+https://github.com/qdinar/phpbb3_tatar
+
+Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:qdinar/phpbb3_tatar.git
+git push -u origin master
+
+Push an existing repository from the command line
+
+git remote add origin git@github.com:qdinar/phpbb3_tatar.git
+git push -u origin master
+
+
+
+
+
+
+https://help.github.com/articles/create-a-repo
+
+mkdir ~/Hello-World
+# Creates a directory for your project called "Hello-World" in your user directory
+
+cd ~/Hello-World
+# Changes the current working directory to your newly created directory
+
+git init
+# Sets up the necessary Git files
+# Initialized empty Git repository in /Users/you/Hello-World/.git/
+
+touch README
+# Creates a file called "README" in your Hello-World directory
+
+git add README
+# Stages your README file, adding it to the list of files to be committed
+
+git commit -m 'first commit'
+# Commits your files, adding the message "first commit"
+
+git remote add origin https://github.com/username/Hello-World.git
+# Creates a remote named "origin" pointing at your GitHub repository
+
+git push origin master
+# Sends your commits in the "master" branch to GitHub
+
+
+
+
+
+
+  237  mkdir phpbb3_tatar
+  238  cd phpbb3_tatar
+  239  touch README
+  240  git init
+  241  git add README
+  242  git commit -m "пхпбб татар тәрҗемәсен гитка көйләү"
+  243  git remote add origin git@github.com:qdinar/phpbb3_tatar.git
+  244  git push -u origin master
+  245  git push origin master
+
+бу төштә иске убунтуның .ssh папкасыннан 3 файл копияләдем. ә берничә атна элек нишләптер ул файллардан башка да эшләгән иде.
+
+  246  history -a
+  247  history
+
+
+бу файл - phpbb tatar.txt ны документлар папкасыннан монда күчердем. мин бу файлны пхпбб тәрҗемәсен ясау эше күпме вакыт алганын санап барыр өчен ясаган идем. элек минем тәрҗемәләр ясап, латинлаштыргыч ясап кодын ачып алар өчен теләгән кеше акча күчерүен сораганым булды, әмма 1 тиен дә акча килгәне юк әле. шуңа күрә менә ул эшләрнең ничаклы вакыт алганын күрсәтергә уйлыйм. фриланс белән шөгыльләнгәндә заказчикларым минем эшләгәнне күрми, ышана гына, мин аларга шушылай текст файлына отчет язып җибәрә идем, эшли башлаган минут, эштән туктаган минут, алар арасындагы эшләр яки ачылган битләрне язып.
+
+-1955
+
+2002-
+аңлатманың дәвамы. пхпбб 3 инде тәрҗемә ителгән иде. иске версиясе. ләкин официаль сайтка куелмаган иде. искесен тәрҗемә итүне мин оештырган идем диергә була ... ләкин күпчелеген Razani тәрҗемә итте ... хәзер бер көнне шул тәрҗемә турында язылган форумда аның турында бер кеше сорады да, мин моны активлаштырып җибәрдем, официаль сайтка куярга теләп. хәзер теге кеше гә эшне башладым диермен. ул форум пхпбб3 һәм тәрҗемә процессын да мин анда эшләмәкче идем, ләкин чынлыкта ул уңайсыз булды. разани тәрҗемәләрне текст төзәткече белән эшләп беркетте генә...
+яздым:
+эшне башладым. иң яңа версиягә көйләп рәсми сайтка җибәрмәкче булам.
+http://tmf.org.ru/viewtopic.php?f=5&t=18&p=446#p446
+
+элекке татар теле файлларын копияләдем. анда субсильвер2 темасының тәрҗемә рәсемнәре юк, просильверныкы гына.
+
+common файлында минем "џзгэртмэ!" кебек язылган өлеше бар иде, мин ясаган , мин аларны хәзер әдәби телдә язылган razani ясаган common2.php дагы текст белән алыштырам... юк, фикеремне үзгәрттем, мин аның хәрефләрен генә алыштырам... элеккесен common-istalikka20130622hali.php диеп калдырдым. койрыклы к, өстендә сызыклы а, о, и кебек хәрефләр дә булган анда , җыенысын алыштырдым, ягъни әдәби язуга якынлаштырдым. җыенысы алышынмаган әле, дәвам итәм.
+
+фринодта яздым
+hello . i have a tatar translation. i want to make it till it goes to official repository.  i have old version translation. what is easy way to find new phrases ? i think i should find old corresponding old english language pack and see diff with new english pack. 
+
+хәзер шул иске файлларны эзләп утырам .
+http://sourceforge.net/projects/phpbb/files/phpBB%203/phpBB%203.0.4/
+https://download.phpbb.com/pub/release/3.0/3.0.4/
+3 0 4 кирәк бугай, вакытына карап әйтәм, минем коммон пхп да әйткән: common.php 9162 2008-12-03.
+diff /home/dinar/Downloads/phpBB3/language/en/common.php '/home/dinar/Downloads/phpbb british_english_3_0_11/language/en/common.php'|less
+эш бара
+-2133
+
+
+
+
+
+2013 06 23
+
+1024-
+diff /home/dinar/Downloads/phpBB3/language/en/groups.php /home/dinar/Downloads/phpbb_british_english_3_0_11/language/en/groups.php |less
+
+diff /home/dinar/Downloads/phpBB3/language/en/ /home/dinar/Downloads/phpbb_british_english_3_0_11/language/en/ |less
+
+мин бер 10 минут йөреп килдем, вакытын язырга онытканмын ...
+
+acp белән email папкалары тәрҗемә ителмәгән, аларны копияләдем. тагы faq та да тәрҗемә ителмәгән урыннар бар...
+
+"просильвер"да 6 рәсем тәрҗемә ителмәгән
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
