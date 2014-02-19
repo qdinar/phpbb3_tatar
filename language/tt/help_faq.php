@@ -10,6 +10,8 @@
 *
 */
 
+// razani , qdb http://tmf.org.ru/viewtopic.php?f=5&t=21
+
 /**
 */
 if (!defined('IN_PHPBB'))
