@@ -1,28 +1,28 @@
 <?php
 /**
 *
-* search [Russian]
+* search [Tatar]
 *
 * @package language
-* @version $Id: search.php,v 1.26 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: search.php 10004 2009-08-17 13:25:04Z rxu $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
-*Razani
-*
 */
+
+//razani, аннары кери
 
 /**
 * DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
 {
-exit;
+   exit;
 }
 
 if (empty($lang) || !is_array($lang))
 {
-$lang = array();
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -38,71 +38,71 @@ $lang = array();
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'Барлык булганнардан',
+	'ALL_AVAILABLE'			=> 'Барлык булганнар',
 	'ALL_RESULTS'			=> 'Барлык көннәр',
 
-	'DISPLAY_RESULTS'		=> 'Нәтиҗәләрне күрсәтергә:',
+	'DISPLAY_RESULTS'		=> 'Нәтиҗәне ничек күрсәтергә',
 
 	'FOUND_SEARCH_MATCH'		=> 'Эзләү нәтиҗәләре: %d',
 	'FOUND_SEARCH_MATCHES'		=> 'Эзләү нәтиҗәләре: %d',
-	'FOUND_MORE_SEARCH_MATCHES'	=> '%d артык эзл.нәтиҗәләре',
+	'FOUND_MORE_SEARCH_MATCHES'	=> '%d артык эзләү нәтиҗәсе',
 
-	'GLOBAL'				=> 'Әһәмиятле',
+	'GLOBAL'				=> 'Мөһим',
 
 	'IGNORED_TERMS'			=> 'игътибарга алынмады',
-	'IGNORED_TERMS_EXPLAIN'	=> 'Еш кулланганга күрә бу сүзләр эзләүдә игътибарга алынмадылар: <strong>%s</strong>.',
+	'IGNORED_TERMS_EXPLAIN'	=> 'Еш кулланганга бу сүзләр эзләүдә игътибарга алынмады: <strong>%s</strong>.',
 
 	'JUMP_TO_POST'			=> 'Хәбәргә күчәргә',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Үз хәбәрләрегезне карау өчен сез системада теркәлгән һәм авторлаштырылган булырга тиешсез.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'The board requires you to be registered and logged in to view your unread posts.',
-	'LOGIN_EXPLAIN_NEWPOSTS'		  => 'The board requires you to be registered and logged in to view new posts since your last visit.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Үз хәбәрләрегезне карау өчен сез системага теркәлеп яки рөхсәт алып керергә тиешсез.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Укылмаган хәбәрләрне карау өчен сез системага рөхсәт алып керергә яки теркәлергә тиеш.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Сезнең соңгы керүегездән соң җибәрелгән хәбәрләрне карау өчен сез системага рөхсәт алып керергә яки теркәлергә тиеш.',
 
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'		  => 'You specified too many words to search for. Please do not enter more than %1$d words.',
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Сез эзләү өчен артык күп сүз күрсәттегез. Андый сүзләрнең саны %1$d артмаска тиеш$d.',
 
-	'NO_KEYWORDS'			=> 'Эзләү өчен сез кимендә бер сүз кертергә тиешсез. Шаблон символын * исәпләмичә һәр сүзнең озынлыгы %d ким һәм %d артык булырга тиеш түгел.',
-	'NO_RECENT_SEARCHES'	=> 'Соңгы вакытларда эзләү соратулары булмады.',
-	'NO_SEARCH'				=> 'Гафу итегез, сезгә эзләүдән файдалану тыелган.',
-	'NO_SEARCH_RESULTS'		=> 'Туры килүче темалар һәм хәбәрләр табылмады.',
-	'NO_SEARCH_TIME'		=> 'Сез бер эзләү артыннан ук эзли алмыйсыз. Зинһар, соңрак эзләрсез.',
-	'NO_SEARCH_UNREADS'				 => 'Sorry but searching for unread posts has been disabled on this board.',
-	'WORD_IN_NO_POST'		=> 'Туры килүче хәбәрләр табылмады, чөнки, <strong>%s</strong> сүзе беркайда да очрамады.',
-	'WORDS_IN_NO_POST'		=> 'Туры килүче хәбәрләр табылмады, чөнки <strong>%s</strong> сүзләре беркайда да очрамады.',
+	'NO_KEYWORDS'			=> 'Эзләү өчен сез кимендә бер сүз кертергә тиешсез. Үрнәк билгесен * исәпләмичә һәр сүзнең озынлыгы %d ким һәм %d артык булырга тиеш түгел.',
+	'NO_RECENT_SEARCHES'	=> 'Соңгы вакытта эзләү сораулары булмады.',
+	'NO_SEARCH'				=> 'Гафу итегез, сезгә эзләүне файдалану тыелган.',
+	'NO_SEARCH_RESULTS'		=> 'Туры килгән тема һәм хәбәрләр табылмады.',
+	'NO_SEARCH_TIME'		=> 'Сез бер эзләү артыннан ук эзли алмыйсыз. Зинһар, соңрак кабатлагыз.',
+	'NO_SEARCH_UNREADS'		=> 'Гафу итегез, ләкин бу конференциядә укылмаган хәбәрләрне эзләү сүндерелгән.',
+	'WORD_IN_NO_POST'		=> 'Туры килгән хәбәрләр табылмады, чөнки, <strong>%s</strong> сүзе беркайда да очрамады.',
+	'WORDS_IN_NO_POST'		=> 'Туры килгән хәбәрләр табылмады, чөнки <strong>%s</strong> сүзләре беркайда да очрамады.',
 
-	'POST_CHARACTERS'		=> 'хәбәр тамгасы',
+	'POST_CHARACTERS'		=> 'хәбәрдә билге',
 
-	'RECENT_SEARCHES'		=> 'Соңгы эзләү соратулары',
+	'RECENT_SEARCHES'		=> 'Соңгы эзләү сораулары',
 	'RESULT_DAYS'			=> 'Хәбәрләрне эзләргә:',
-	'RESULT_SORT'			=> 'Сортировка кыры',
+	'RESULT_SORT'			=> 'Тәртипләү кыры',
 	'RETURN_FIRST'			=> 'Беренчеләрен күрсәтергә',
 	'RETURN_TO_SEARCH_ADV'	=> 'Киңәйтелгән эзләүгә кайтырга',
 
-	'SEARCHED_FOR'				=> 'Эзләү соратуы',
+	'SEARCHED_FOR'				=> 'Эзләү соравы',
 	'SEARCHED_TOPIC'			=> 'Темада эзләү',
 	'SEARCH_ALL_TERMS'			=> 'Барлык сүзләрне эзләргә',
-	'SEARCH_ANY_TERMS'			=> 'Теләсә нинди сүзне эзләргә/соратулар теле белән эзләү',
+	'SEARCH_ANY_TERMS'			=> 'Теләсә нинди сүзне сораулар теле белән эзләү',
 	'SEARCH_AUTHOR'				=> 'Автор буенча эзләү',
-	'SEARCH_AUTHOR_EXPLAIN'		=> '* ны шаблон итеп файдаланыгыз.',
+	'SEARCH_AUTHOR_EXPLAIN'		=> '* билгесен үрнәк итеп файдаланыгыз.',
 	'SEARCH_FIRST_POST'			=> 'Теманың беренче хәбәреннән генә',
 	'SEARCH_FORUMS'				=> 'Форумнарда эзләргә',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Эзләү башкарылачак форум яки форумнарны сайлагыз. Түбәндәге тиешле опцияне өзмәгән булсагыз, асфорумнарда эзләү автомат рәвештә барачак.',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Эзләү башкарылачак форум яки форумнарны сайлагыз. Түбәндәге тиешле рәвешне сүндермәгән булсагыз, асфорумнарда эзләү үзе башкарылачак.',
 	'SEARCH_IN_RESULTS'			=> 'Табылганнардан эзләү',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Эзләү нәтиҗәләрендә булырга тиешле сүзләр өчен <strong>+</strong>, булмаска тиешлеләре өчен <strong>-</strong> файдаланыгыз. Исемлектәге теләсә кайсы сүзне эзләү өчен сүзләрне  <strong>|</strong> тамгасы белән бүлә аласыз. <strong>*</strong> ны өлешчә туры китерү шаблоны итеп файдаланыгыз.',
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Эзләү нәтиҗәләрендә булырга тиешле сүзләр өчен <strong>+</strong>, тиешле булмаганнар өчен <strong>-</strong> куллана аласыз. Исемлектән теләсә кайсы сүзне эзләү өчен сүзләрне <strong>|</strong> билгесе белән бүлә аласыз. <strong>*</strong> билгесен өлешчә туры килгән үрнәк итеп файдаланыгыз.',
 	'SEARCH_MSG_ONLY'			=> 'Хәбәрләр текстларыннан гына',
-	'SEARCH_OPTIONS'			=> 'Эзләү көйләнмәләре',
-	'SEARCH_QUERY'				=> 'Эзләү',
+	'SEARCH_OPTIONS'			=> 'Сорау шартлары',
+	'SEARCH_QUERY'				=> 'Сорау',
 	'SEARCH_SUBFORUMS'			=> 'Асфорумнардан эзләргә',
 	'SEARCH_TITLE_MSG'			=> 'Тема исемнәреннән һәм хәбәрләр текстларыннан',
-	'SEARCH_TITLE_ONLY'			=> 'Фәкать тема исеме буенча',
+	'SEARCH_TITLE_ONLY'			=> 'Тема исеме буенча гына',
 	'SEARCH_WITHIN'				=> 'Эзләргә',
 	'SORT_ASCENDING'			=> 'арту буенча',
-	'SORT_AUTHOR'				=> 'Автор',
+	'SORT_AUTHOR'				=> 'Авторы',
 	'SORT_DESCENDING'			=> 'кимү буенча',
 	'SORT_FORUM'				=> 'Форум',
-	'SORT_POST_SUBJECT'			=> 'Хәбәр башламы',
-	'SORT_TIME'					=> 'Урнаштыру вакыты',
+	'SORT_POST_SUBJECT'			=> 'Хәбәрнең башламы',
+	'SORT_TIME'					=> 'Урнашу вакыты',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'Сез автор исеменең кимендә %d тамгасын кертергә тиеш.',
+	'TOO_FEW_AUTHOR_CHARS'	=> 'Автор исеменә кимендә %d билге кертергә тиешсез.',
 ));
 
 ?>
