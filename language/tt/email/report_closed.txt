@@ -1,8 +1,8 @@
-Subject: Report closed - "{POST_SUBJECT}"
+Subject: Шикаять ябык — «{POST_SUBJECT}»
 
-Hello {USERNAME},
+Исәнмесез, {USERNAME}!
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was handled by a moderator or by an administrator. The report was afterwards closed. If you have further questions contact {CLOSER_NAME} with a personal message.
+Сез бу белдерүне, сез җибәргән «{POST_SUBJECT}» хәбәргә «{TOPIC_TITLE}» темасында «{SITENAME}» конференциясендә шикаять модератор яки администратор белән каралган өчен алдыгыз. Караудан соң шикаять ябылды. Алга таба килеп чыккан сораулар буенча {CLOSER_NAME} белән шәхси хәбәр ярдәмендә элемтәгә чыгыгыз.
 
 
 {EMAIL_SIG}

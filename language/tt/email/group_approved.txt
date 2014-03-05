@@ -1,9 +1,9 @@
-Subject: Your request has been approved
+Subject: Сезнең үтенечегез канәгатьләндерелде
 
-Congratulations,
+Котлыйбыз!
 
-Your request to join the "{GROUP_NAME}" group on "{SITENAME}" has been approved.
-Click on the following link to see your group membership.
+Сезнең «{GROUP_NAME}» төркеменә «{SITENAME}» конференциясендә керү үтенече канәгатьләндерелде.
+Төркемнәрдә сезнең әгъзалык турында мәгълүматны белү өчен түбәндәге сылтама буенча күчегез: 
 
 {U_GROUP}
 

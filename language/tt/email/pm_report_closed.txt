@@ -1,8 +1,8 @@
-Subject: Report closed - "{PM_SUBJECT}"
+Subject: Шәхси хәбәргә {PM_SUBJECT} шикаять ябык
 
-Hello {USERNAME},
+Исәнмесез, {USERNAME}!
 
-You are receiving this notification because the report you filed regarding the private message "{PM_SUBJECT}" at "{SITENAME}" has been tended to by a moderator or administrator. The report is now closed. If you have further questions, please contact {CLOSER_NAME} by private message.
+Сез бу белдерүне, сез җибәргән {PM_SUBJECT} шәхси хәбәренә «{SITENAME}» конференциясендә шикаять модератор яки администратор белән каралган өчен алдыгыз. Караудан соң шикаять ябылачак. Килеп чыккан сораулар буенча {CLOSER_NAME} (шикаятьне япкан кулланучы) белән шәхси хәбәр ярдәмендә элемтәгә чыгыгыз.
 
 
 {EMAIL_SIG}

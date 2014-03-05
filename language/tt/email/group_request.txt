@@ -1,9 +1,9 @@
-Subject: A request to join your group has been made
+Subject: Төркемгә керү үтенече
 
-Dear {USERNAME},
+Хөрмәтле {USERNAME}!
 
-The user "{REQUEST_USERNAME}" has requested to join the group "{GROUP_NAME}" you moderate on "{SITENAME}".
-To approve or deny this request for group membership please visit the following link:
+«{REQUEST_USERNAME}» кулланучысы «{GROUP_NAME}» төркеменә керүен сорады, «{SITENAME}» конференциясендә сез аның җитәкчесе.
+Бу үтенечне канәгатьләндерү яки кире кагу өчен түбәндәге сылтама буенча күчегез
 
 {U_PENDING}
 

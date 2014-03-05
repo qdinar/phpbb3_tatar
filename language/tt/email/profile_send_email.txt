@@ -1,13 +1,13 @@
 
-Hello {TO_USERNAME},
+Исәнмесез, {TO_USERNAME}!
 
-The following is an e-mail sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Түбәндәге хатны, {FROM_USERNAME} кулланучысы сезнең хисап язма аша «{SITENAME}» конференциясендә сезгә җибәргән. Әгәр бу хәбәрдә спам, мыскыллау яки башка сезгә ошамаган фикерләр булса, зинһар, конференция администраторы белән түбәндәге адрес аша элемтәгә чыгыгыз:
 
 {BOARD_CONTACT}
 
-Include this full e-mail (particularly the headers). Please note that the reply address to this e-mail has been set to that of {FROM_USERNAME}.
+Әлеге хәбәрне тулысынча кабызыгыз (аеруча башламнарны). Зинһар, исәпкә алыгыз, бу хатның кире адресы {FROM_USERNAME} кулланучыныкы.
 
-Message sent to you follows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Сезгә җибәрелгән хәбәр
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

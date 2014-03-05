@@ -1,21 +1,21 @@
-Subject: Welcome to "{SITENAME}"
+Subject: «{SITENAME}» конференциясенә хуш килдегез
 
 {WELCOME_MSG}
 
-Please keep this e-mail for your records. Your account information is as follows:
+Зинһар, бу хәбәрне саклагыз. Сезнең хисап язма шартлары мондый:
 
 ----------------------------
-Username: {USERNAME}
+Кулланучы исеме: {USERNAME}
 
-Board URL: {U_BOARD}
+Конференция адресы: {U_BOARD}
 ----------------------------
 
-Please visit the following link in order to activate your account:
+Түбәндәге сылтамага хисап язманы эшләтү өчен басыгыз:
 
 {U_ACTIVATE}
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Сезнең серсүз ышанычлы итеп безнең мәгълүмат нигезендә сакланды һәм аннан чыгарыла алмый. Әгәр шулай да серсүзне онытсагыз, сезнең хисап язма белән бәйләнгән электрон почта адресын кулланып аны торгыза алачаксыз.
 
-Thank you for registering.
+Теркәлүегез өчен рәхмәт!
 
 {EMAIL_SIG}

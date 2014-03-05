@@ -1,16 +1,16 @@
-Subject: "{SITENAME}" - E-mail a friend
+Subject: «{SITENAME}» — Дустан хәбәр
 
-Hello {TO_USERNAME},
+Исәнмесез, {TO_USERNAME}!
 
-This e-mail was sent from "{SITENAME}" by {FROM_USERNAME} who thought you may be interested in the following topic:
+Бу хәбәр «{SITENAME}» конференциясеннән {FROM_USERNAME} кулланучысы белән җибәрелде, ул сезгә әлеге тема кызык булуы мөмкин дип уйлый:
 
 {TOPIC_NAME}
 
-You can find it at:
+Сез аны бу адрес буенча таба аласыз:
 
 {U_TOPIC}
 
-A message from {FROM_USERNAME} may also be included below. Please note that this message has not been seen or approved by the board administrators. If you wish to complain about having received this e-mail please contact the board administrator at {BOARD_CONTACT}. Please quote the message headers when contacting this address.
+Башлангыч хәбәр {FROM_USERNAME} кулланучысыннан түбәндә китерелә. Исәпкә алыгыз, бу хәбәр конференция җитәкчеләре белән каралмады яки хупланмады. Әгәр бу хәбәргә шикаять язарга теләсәгез, администратор белән {BOARD_CONTACT} адресы аша элемтәгә чыгыгыз. Бу адреска хәбәрне җибәргәндә, алынган хатның башлам өземтәсен китерегез.
 
 ----------
 

@@ -1,17 +1,17 @@
-Subject: New password activation
+Subject: Яңа серсүзне эшләтү
 
-Hello {USERNAME}
+Исәнмесез, {USERNAME}!
 
-You are receiving this notification because you have (or someone pretending to be you has) requested a new password be sent for your account on "{SITENAME}". If you did not request this notification then please ignore it, if you keep receiving it please contact the board administrator.
+Сез бу хатны алдыгыз чөнки сез (яки сез дип атаучы башка кемдер)  «{SITENAME}» конференциясендә сезнең хисап язмага яңа серсүз җибәрергә сорады. Әгәр серсүз җибәрергә сорамаган булсагыз, бу хатка игътибар итмәгез, әгәр андый хәбәрләр килүе дәвам итсә, конференция администраторына мөрәҗәгать итегез.
 
-To use the new password you need to activate it. To do this click the link provided below.
+Яңа серсүзне куллану алдыннан аны эшләтергә кирәк. Аның өчен түбәндәге сылтама буенча күчегез:
 
 {U_ACTIVATE}
 
-If successful you will be able to login using the following password:
+Уңышлы эшләтү нәтиҗәсендә сез конференциягә түбәндәге серсүзне кулланып керә алачаксыз:
 
-Password: {PASSWORD}
+Серсүз: {PASSWORD}
 
-You can of course change this password yourself via the profile page. If you have any difficulties please contact the board administrator.
+Сез бу серсүзне шәхси бүлектә рәвеш төзәтү битендә үзгәртә алачаксыз. Әгәр сездә берәрнинди авырлыклар килеп чыкса, конференция администраторына мөрәҗәгать итегез.
 
 {EMAIL_SIG}

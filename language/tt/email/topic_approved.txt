@@ -1,10 +1,10 @@
-Subject: Topic approved - "{TOPIC_TITLE}"
+Subject: Тема хупланды — «{TOPIC_TITLE}»
 
-Hello {USERNAME},
+Исәнмесез, {USERNAME}!
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was approved by a moderator or administrator.
+Сез бу белдерүне, сезнең «{TOPIC_TITLE}» тема «{SITENAME}» конференциясендә модератор яки администратор белән хупланган өчен алдыгыз.
 
-If you want to view the topic, click the following link:
+Теманы карап чыгарга теләсәгез, түбәндәге сылтама буенча күчегез:
 {U_VIEW_TOPIC}
 
 

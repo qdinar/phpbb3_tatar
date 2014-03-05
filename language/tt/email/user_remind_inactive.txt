@@ -1,11 +1,11 @@
-Subject: Inactive account reminder
+Subject: Сүндерелгән хисап язма турында искәртү
 
-Hello {USERNAME},
+Исәнмесез, {USERNAME}!
 
-This notification is a reminder that your account at "{SITENAME}", created on {REGISTER_DATE}, remains inactive. If you would like to activate this account, please visit the following link:
+Сезгә әлеге белдерү, сезнең хисап язма «{SITENAME}» конференциясендә, {REGISTER_DATE} теркәлгән, әлегә кадәр эшләтелмәгән килеш торганы турында искәртү өчен җибәрелде. Әгәр бу хисап язманы эшләтергә теләсәгез, түбәндәге сылтамага чиртегез:
 
 {U_ACTIVATE}
 
-Thank you for registering at "{SITENAME}", we look forward to your participation.
+«{SITENAME}» конференциясендә теркәлү өчен рәхмәт белдерәбез һәм сезнең фикер алышуларда катнашуыгызга ышанабыз.
 
 {EMAIL_SIG}

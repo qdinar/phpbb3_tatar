@@ -1,13 +1,13 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: Хәбәр хупланды — «{POST_SUBJECT}»
 
-Hello {USERNAME},
+Исәнмесез, {USERNAME}!
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+Сез бу белдерүне, сезнең {PM_SUBJECT} хәбәре «{SITENAME}» конференциясендә модератор яки администратор белән хупланган өчен алдыгыз.
 
-If you want to view the post, click the following link:
+Хәбәрегезне карап чыгасы килсә, түбәндәге сылтама буенча күчегез
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Теманы карап чыгарга теләсәгез, түбәндәге сылтама буенча күчегез:
 {U_VIEW_TOPIC}
 
 

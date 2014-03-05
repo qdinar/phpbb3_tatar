@@ -1,19 +1,20 @@
-Subject: phpBB installed
+Subject: phpBB урнаштырылды
 
-Congratulations,
+Котлыйбыз!
 
-You have successfully installed phpBB on your server.
+Сез серверга phpBB урнаштырдыгыз.
 
-This e-mail contains important information regarding your installation and should be kept for reference. Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Бу хәбәрдә яңа гына урнаштырылган phpBB кагылган мөһим мәгълүмат бар. Бу хәбәрне саклагыз. Сезнең серсүз ышанычлы итеп безнең мәгълүмат нигезендә сакланды һәм аннан чыгарыла алмый. Әгәр шулай да серсүзне онытсагыз, сезнең хисап язма белән бәйләнгән электрон почта адресын кулланып аны торгыза алачаксыз.
 
-----------------------------
-Username: {USERNAME}
+---------------------------------
+Кулланучы исеме: {USERNAME}
 
-Board URL: {U_BOARD}
-----------------------------
+Конференция адресы:	{U_BOARD}
+---------------------------------
 
-Useful information regarding the phpBB software can be found in the docs folder of your installation and on phpBB.com's support page - http://www.phpbb.com/support/
+phpBB турындагы файдалы мәгълүмат docs һәм phpBB.com ярдәм битендә урнашкан— http://www.phpbb.com/support/
+Рәсми рус телле phpBB ярдәм бите — http://www.phpbbguru.net
 
-In order to keep your board safe and secure, we highly recommended keeping current with software releases. For your convenience, a mailing list is available at the page referenced above.
+Конференциядә иминлек тәэмин итү өчен яңартулар артыннан катгый күзәтеп торырга тәкъдим итәбез, сез аны өстәрәк күрсәтелгән сылтама аша phpBB.com таратуына язылып башкара аласыз.
 
 {EMAIL_SIG}

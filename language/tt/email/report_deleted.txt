@@ -1,8 +1,8 @@
-Subject: Report deleted - "{POST_SUBJECT}"
+Subject: Шикаять бетерелде — «{POST_SUBJECT}»
 
-Hello {USERNAME},
+Исәнмесез, {USERNAME}!
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was deleted by a moderator or by an administrator.
+Сез бу белдерүне, сез җибәргән «{POST_SUBJECT}» хәбәргә «{TOPIC_TITLE}» темасында «{SITENAME}» конференциясендә шикаять модератор яки администратор белән бетерелгән өчен алдыгыз.
 
 
 {EMAIL_SIG}

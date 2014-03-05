@@ -1,12 +1,12 @@
 
-The following is an e-mail sent to you by an administrator of "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Бу хат сезгә «{SITENAME}» конференция администраторыннан җибәрелде. Әгәр бу хат спам, анда мыскыллау яки башка сезгә ошамаган фикерләр булса, зинһар, конференция администраторы белән түбәндәге адрес аша элемтәгә чыгыгыз:
 
 {CONTACT_EMAIL}
 
-Include this full e-mail (particularly the headers). 
+Бу хәбәрне тулысынча ачыгыз (аеруча башламнарны).
 
-Message sent to you follows:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Сезгә җибәрелгән хәбәр:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
 

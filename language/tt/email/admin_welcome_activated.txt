@@ -1,9 +1,9 @@
-Subject: Account activated
+Subject: Хисап язма эшләтелде
 
-Hello {USERNAME},
+Исәнмесез, {USERNAME}!
 
-Your account on "{SITENAME}" has been activated by an administrator, you may login now.
+Сезнең «{SITENAME}» конференция хисап язмасы администратор белән эшләтелде. Хәзер сез конференциягә керә аласыз.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Сезнең серсүз конференциянең мәгълүмат нигезендә иминле рәвештә сакланды. Серсүзне онытсагыз, теркәлгәндә билгеләнгән email адресны кулланып яңаны ала аласыз.
 
 {EMAIL_SIG}

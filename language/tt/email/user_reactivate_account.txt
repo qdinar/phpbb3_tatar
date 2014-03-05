@@ -1,17 +1,17 @@
-Subject: Reactivate your account on "{SITENAME}"
+Subject: «{SITENAME}» конференциясендә хисап язманы кабат эшләтү
 
-A board administrator requested that your account be reactivated. Your account is currently inactive.
-Please follow the steps listed here to reactivate your account.
+Конференция администраторы сезнең хисап язманың кабат эшләтүен сорады. Хәзерге вакытта сезнең хисап язма эшлекле түгел.
+Хисап язманы эшләтү өчен түбәндә бирелгән күрсәтмәләр буенча эшләгез.
 
-Please keep this e-mail for your records. Your account information is as follows:
+Бу хәбәрне саклагыз. Сезнең хисап язма шартлары мондый:
 
 ----------------------------
-Username: {USERNAME}
+Кулланучы исеме: {USERNAME}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Сезнең серсүз ышанычлы итеп безнең мәгълүмат нигезендә сакланды һәм аннан чыгарыла алмый. Әгәр шулай да серсүзне онытсагыз, сезнең хисап язма белән бәйләнгән электрон почта адресын кулланып аны торгыза алачаксыз.
 
-Please visit the following link to reactivate your account:
+Хисап язманы эшләтү өчен түбәндәге сылтама буенча күчегез:
 
 {U_ACTIVATE}
 

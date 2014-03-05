@@ -1,11 +1,11 @@
-Subject: You have been added to this usergroup
+Subject: Сез төркемгә кушылдыгыз
 
-Congratulations,
+Котлыйбыз!
 
-You have been added to the "{GROUP_NAME}" group on "{SITENAME}".
-This action was done by a group leader or the site administrator, contact them for more information.
+Сез «{GROUP_NAME}» төркеменә «{SITENAME}» конференциясендә кабул ителдегез}».
+Бу төркем җитәкчесе яки сәхифә администраторы белән башкарылды, өстәмә мәгълүмат артыннан аларга мөрәҗәгать итегез. 
 
-You can view your groups information here:
+Төркемнәрдә сезнең әгъзалык турында мәгълүматны белү өчен түбәндәге сылтама буенча күчегез:
 {U_GROUP}
 
 {EMAIL_SIG}
