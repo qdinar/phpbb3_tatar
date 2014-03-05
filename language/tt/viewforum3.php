@@ -38,31 +38,31 @@ $lang = array();
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-'ACTIVE_TOPICS' => 'Актив темалар',
-'ANNOUNCEMENTS' => 'Белдерүләр',
+	'ACTIVE_TOPICS' => 'Актив темалар',
+	'ANNOUNCEMENTS' => 'Белдерүләр',
 
-'FORUM_PERMISSIONS' => 'Форумга керү хокуклары',
+	'FORUM_PERMISSIONS' => 'Форумга керү хокуклары',
 
-'ICON_ANNOUNCEMENT' => 'Белдерү',
-'ICON_STICKY' => 'Ябыштырылган',
+	'ICON_ANNOUNCEMENT' => 'Белдерү',
+	'ICON_STICKY' => 'Ябыштырылган',
 
-'LOGIN_NOTIFY_FORUM' => 'Сезгә яңа хат килүе сәәпләе, форумга керегез.',
+	'LOGIN_NOTIFY_FORUM' => 'Сезгә яңа хат килүе сәәпләе, форумга керегез.',
 
-'MARK_TOPICS_READ' => 'Темыларны укылган диеп куерга',
+	'MARK_TOPICS_READ' => 'Темыларны укылган диеп куерга',
 
-'NEW_POSTS_HOT' => 'Яңа хәбәрләр [ Популяр ]',
-'NEW_POSTS_LOCKED' => 'Яңа хәбәрләр [ Тема ябык ]',
-'NO_NEW_POSTS_HOT' => 'Яңа хәбәр юк [ Популяр ]',
-'NO_NEW_POSTS_LOCKED' => 'Яңа хәбәр юк [ Тема ябык ]',
-'NO_READ_ACCESS' => 'Сез бу форумда хәбәрләрне укый алмыйсыз (хокукыгыз юк).',
+	'NEW_POSTS_HOT' => 'Яңа хәбәрләр [ Популяр ]',
+	'NEW_POSTS_LOCKED' => 'Яңа хәбәрләр [ Тема ябык ]',
+	'NO_NEW_POSTS_HOT' => 'Яңа хәбәр юк [ Популяр ]',
+	'NO_NEW_POSTS_LOCKED' => 'Яңа хәбәр юк [ Тема ябык ]',
+	'NO_READ_ACCESS' => 'Сез бу форумда хәбәрләрне укый алмыйсыз (хокукыгыз юк).',
 
-'POST_FORUM_LOCKED' => 'Форум ябык',
+	'POST_FORUM_LOCKED' => 'Форум ябык',
 
-'TOPICS_MARKED' => 'Бу форумдагы бөтен темалар "укыдлган" дип куелган.',
+	'TOPICS_MARKED' => 'Бу форумдагы бөтен темалар "укыдлган" дип куелган.',
 
-'VIEW_FORUM' => 'Форумны карау',
-'VIEW_FORUM_TOPIC' => '1 тема',
-'VIEW_FORUM_TOPICS' => '%d тема',
+	'VIEW_FORUM' => 'Форумны карау',
+	'VIEW_FORUM_TOPIC' => '1 тема',
+	'VIEW_FORUM_TOPICS' => '%d тема',
 ));
 
 ?>
