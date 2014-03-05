@@ -10,8 +10,6 @@
 *
 */
 
-//razani, кери
-
 /**
 * DO NOT CHANGE
 */
@@ -39,7 +37,6 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	//бу төше - кери тәрҗемәсе
 	'TERMS_OF_USE_CONTENT'	=> '«%1$s» конференциясенә кергәндә (алга таба «без», «безнеке», «%1$s», «%2$s»), сез түбәндәге шартлар белән килешкәнегезне раслыйсыз. Әгәр килешмәсәгез, зинһар, «%1$s» форумнарын кулланмагыз һәм анда кермәгез. Без үзебездә бу кагыйдәләрне теләгән вакытта үзгәртергә хокукны калдырабыз һәм үзгәрткән очракта булдыра алганчы сезгә аны белдерәчәкбез, шулай да сезнең яктан бу текстны үзгәрүләр барлыгына тикшереп торуыгыз дөрес була, чөнки «%1$s» конференция шартларын яңарту/үзгәртүдән соң куллану, алар белән килешүегез турында аңлата.<br />
 	<br />
 	Безнең форумнар phpBB конференция ясау өчен программа тәэминаты идарәсендә эшли (алга таба «алар», «phpBB программа тәэминаты», «www.phpbb.com», «phpBB Group», «phpBB Teams»), «<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>» хокукыннан чыгарылган(алга таба «GPL»). Аны <a href="http://www.phpbb.com/">www.phpbb.com</a> адресы буенча йөкләп була. phpBB программа тәэминатына GPL хокук чикләмәләре оешмага һәм интернет-конференция ярдәменә бәйле, һәм phpBB Group конференция администрациясе рөхсәт ителгән эчтәлек өчен һәм/яки аларның тәртипләренә җаваплылык тотмый. phpBB турында өстәмә мәгълүмат артыннан <a href="http://www.phpbb.com/">www.phpbb.com/</a> адресы буенча мөрәҗәгать итегез.<br />
@@ -179,7 +176,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Монда караламаны үзгәртә аласыз. Караламаларда өстәүләр һәм сораштырулар юк.',
 	'EMAIL_BANNED_EMAIL'		=> 'Кертелгән email адресын куллану тыелган.',
-	'EMAIL_INVALID_EMAIL'		=> 'Кертелгән email адресы дөрес түгел.',
 	'EMAIL_REMIND'				=> 'Хисап язмагыз белән бәйле email адресы. Әгәр сез аны Шәхси бүлектә үзгәртмәгән булсагыз, ул теркәлү вакытында күрсәткән email адресыгыз.',
 	'EMAIL_TAKEN_EMAIL'			=> 'Кертелгән email адресны башка кулланучы файдалана инде.',
 	'EMPTY_DRAFT'				=> 'Үзгәртүләрне раслау өчен сез хәбәр кертергә тиеш.',
@@ -260,6 +256,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> '',
 	'MESSAGE_COLOURS'				=> 'Хәбәрләр төсләре',
 	'MESSAGE_DELETED'				=> 'Хәбәр бетерелде.',
+	'MESSAGE_EDITED'				=> 'Хәбәр үзгәртелде.',
 	'MESSAGE_HISTORY'				=> 'Хәбәрләр тарихы',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Автор бу хәбәрне сез аны укыганчы бетерде.',
 	'MESSAGE_SENT_ON'				=> 'кемнән',
@@ -561,80 +558,6 @@ $lang = array_merge($lang, array(
 	'NO_MEMBER'		=> 'Төркем әгъзалары юк',
 	'NO_PENDING'	=> 'Төркем әгъзаларына кандидатлар юк',
 	'NO_NONMEMBER'	=> 'Буш төркемнәр юк',
-
-	//моннан аста кери тәрҗемәсе
-
-	'TRACKER_USER_COMMENTS' => 'Аңлатмалар',
-	'TRACKER_USER_DOWNLOAD' => 'Йөкләде',
-	'TRACKER_USER_UPLOAD' => 'Таратты',
-	'TRACKER_USER_RATIO' => 'Ратио',
-	'TRACKER_USER_YTHANKS' => 'Рәхмәтләрегез',
-	'TRACKER_USER_TYTHANKS' => 'Сезгә рәхмәт',
-
-	'UCP_PREFS_TRACKER'	=> 'Трекер көйләүләре',
-	'UCP_PREFS_TRACKER_DETAILS'	=> 'Трекер көйләүләре',
-	'UCP_PREFS_RETRACKER'	=> 'Мультитрекер',
-	'UCP_PREFS_RETRACKER_DETAILS'	=> 'Мультитрекер',
-	'UCP_MAIN_TRACKER' => 'Трекер',
-	'RECREATE_PASSKEY' => 'Пасскейны киредән ясарга',
-	'RECREATE_PASSKEY_EXPLAIN' => '<b>Игътибар!</b>, моннан соң барлык таратылган һәм йөкләнелгән торрентларны киредән йөкләргә туры киләчәк!',
-	'USER_PASSKEY_CREATED'			=> 'Пасскей киредән ясалды.',
-	'USER_TRIGHTS_CLEARED'			=> 'Трекердагы хокуклар ташланды.',
-	'USER_TBONUS_COLLECTED'			=> 'Аплоад өчен өстәлгән бонус: %s (%s чыгып)',
-	'USER_TPEERS_CLEARED'			=> 'Таратучылар исемлеге чистартылды',
-	'CLEAR_TRIGHTS'				=> 'Трекерда хокукны ташларга',
-	'CLEAR_TRIGHTS_EXPLAIN'				=> 'Таратылган яки йөкләнелгән торрентлар булганда гына кирәк, трекерда хокукларыгыз үзгәргәндә кирәк була ала',
-	'CLEAR_PEERS'					=> 'Минем тарату исемлеген ташларга',
-	'CLEAR_PEERS_EXPLAIN'			=> 'Сез йөкләгән һәм тараткан торрентлар исемлеген бетерә',
-	'CLEAR_PEERS_TIME'					=> '"Үлгәннәр" генә',
-	'CLEAR_PEERS_ALL'					=> 'Барысы',
-	'COLLECT_TBONUS'				=> 'Аплоад өчен бонуслар өстәргә',
-	'COLLECT_TBONUS_EXPLAIN'				=> 'Торрентларда аплоад өчен бонуслар өстәргә, бонус мәгънәсе ратиога кушылачак',
-	'TRACKER_USER_PASSKEY' => 'Пасскей',
-
-	'USER_TRATIO_RESET'				=> 'Ратио мәгънәсен ташларга',
-	'USER_TRATIO_RESET_EXPLAIN'				=> 'Бонус мәгънәсе шулай ук ташланачак',
-	'USER_TRATIO_RESET_YES'				=> 'Сез ратио мәгънәсен <b>%s</b> тапкыр ташлый аласыз)',
-	'USER_TRATIO_RESET_NO'				=> 'Сез ратио мәгънәсен ташлый алмыйсыз',
-	'USER_TBONUS_RESET'				=> 'Аплоад өчен бонус мәгънәсен ташларга',
-	'USER_TBONUS_RESET_EXPLAIN'				=> '',
-	'USER_TRATIO_RESETTED'				=> 'Ратио мәгънәсе ташланды',
-	'USER_TBONUS_RESETTED'				=> 'Аплоад өчен бонус мәгънәсе ташланды',
-	'USER_TRATIO_RESET_INFO'				=> 'Сез ратионы <b>%s</b> тапкыр ташладыгыз)',
-	'UCP_MAIN_TORRENTS' => 'Торрентлар',
-
-	'TORRENT_INFO_HEADER_TORRENT'		=> 'Төяде',
-	'TORRENT_INFO_HEADER_SEED'		=> 'Тарата',
-	'TORRENT_INFO_HEADER_LEECH'		=> 'Йөклим',
-	'TORRENT_INFO_HEADER_LEAVE'		=> 'Таратмыйм',
-	'TORRENT_INFO_HEADER_HISTORY'		=> 'Тарих',
-	'TORRENT_INFO_HEADER_FROMTHANKS'		=> 'Рәхмәт әйтте',
-	'TORRENT_INFO_HEADER_TOTHANKS'		=> 'Рәхмәт алды',
-	'TORRENT_INFO_HEADER_FROMSEEDREQ'		=> 'Сидерларны сорады',
-	//'TORRENT_INFO_HEADER_TOSEEDREQ'		=> 'Сидер булып соралды',
-	'TORRENT_INFO_HEADER_FINISHED'		=> 'Йөкләде',
-	'TORRENT_INFO_HEADER_DOWNLOADS'		=> 'Файлларны йөкләде',
-
-	'RTRACK'	=> 'Мультитрекер',
-	'ACTION'	=> 'Гамәл',
-	'ZONE_RTRACK_URL' => 'Трекерның Url',
-	'ZONE_RTRACK_EXPLAIN' => 'Әлеге трекерлар адресы сез йөкләгән торрент файлларга үзе өстәләчәк.<br />{YOUR_PASSKEY} юлы трекердагы хәзерге сезнең пасскей белән алмаштырылачак.',
-	'RTRACK_DISABLED' => 'Шәхси мултитрекерлар системасы сүнгән',
-	'RTRACK_SUCCESS' => 'Көйләүләр үзгәртелде',
-
-	'USER_STICKIP' => 'IP адресны беркетү',
-	'USER_STICKIP_EXPLAIN' => 'Торрентларыгызның анонсын күрсәтелгән IP адрестан гына рөхсәт итәргә',
-	'USER_STICKIP_DESCR' => 'IP адреска хәзер беркетелгән: <b>%s</b><br />Хәзерге IP адрес: <b>%s</b>',
-	'USER_IP_STICKED' => 'Күрсәтелгән IP адрес беркетелде',
-	'USER_IP_UNSTICKED' => 'Күрсәтелгән IP адрес төшерелде',
-	'INVALID_RTRACK_URL' => 'Нәзакәтсез трекер URL',
-	'FORB_RTRACK_URL' => 'Соралган трекер URL',
-	'TRACKER_USER_YSEEDREQ' => 'Сидерларны сорадыгыз',
-	'TRACKER_USER_TYSEEDREQ' => 'Сездән сидерларны сорадылар',
-	'TRIPREG_COUNTRESTRICT' => 'Теркәлү мөмкин түгел, бер IP адрестан максималь теркәлү саны: <b>%d</b>',
-	'MAXUSERS_ANNOUNCES_LIMIT' => 'Трекерларның максималь рөхсәт ителгән саны: <b>%d</b>',
-	'UNREGTORR' => 'Теркәлмәгән торрентлар',
-	'UNREGTORR_EXPLAIN' => 'Трекерда теркәлмәгән (серверга йөкләнмәгән) торрентларның анонсы рөхсәт ителгән, андый торрентларның анонсы өчен күрсәтелгән URL анонсын кулланыгыз',
 ));
 
 ?>

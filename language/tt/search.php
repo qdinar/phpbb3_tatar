@@ -10,8 +10,6 @@
 *
 */
 
-//razani, аннары кери
-
 /**
 * DO NOT CHANGE
 */
@@ -79,6 +77,7 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'				=> 'Эзләү соравы',
 	'SEARCHED_TOPIC'			=> 'Темада эзләү',
+	'SEARCHED_QUERY'			=> 'Эзләү соравы',
 	'SEARCH_ALL_TERMS'			=> 'Барлык сүзләрне эзләргә',
 	'SEARCH_ANY_TERMS'			=> 'Теләсә нинди сүзне сораулар теле белән эзләү',
 	'SEARCH_AUTHOR'				=> 'Автор буенча эзләү',
