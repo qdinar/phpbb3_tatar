@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* acp_language [English]
+* acp_language [Russian]
 *
 * @package language
-* @version $Id$
+* @version $Id: language.php 9649 2009-06-21 19:17:20Z bantu $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -36,68 +36,68 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FILES'						=> 'Admin language files',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Here you are able to install/remove language packs. The default language pack is marked with an asterisk (*).',
+	'ACP_FILES'						=> 'Администратор файллары',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Сез монда тел төргәкләрен бетерә яки урнаштыра аласыз. Конференциядә килешү буенча кулланылган тел йолдызчык белән тамгаланган (*).',
 
-	'EMAIL_FILES'			=> 'E-mail templates',
+	'EMAIL_FILES'			=> 'email хәбәрләр үрнәге',
 
-	'FILE_CONTENTS'				=> 'File contents',
-	'FILE_FROM_STORAGE'			=> 'File from storage folder',
+	'FILE_CONTENTS'				=> 'Файл эчендә',
+	'FILE_FROM_STORAGE'			=> 'Саклау папкасыннан файл',
 
-	'HELP_FILES'				=> 'Help files',
+	'HELP_FILES'				=> 'Белешмә файллар',
 
-	'INSTALLED_LANGUAGE_PACKS'	=> 'Installed language packs',
-	'INVALID_LANGUAGE_PACK'		=> 'The selected language pack seems to be not valid. Please verify the language pack and upload it again if necessary.',
-	'INVALID_UPLOAD_METHOD'		=> 'The selected upload method is not valid, please choose a different method.',
+	'INSTALLED_LANGUAGE_PACKS'	=> 'Урнаштырылган тел төргәкләре',
+	'INVALID_LANGUAGE_PACK'		=> 'Сайланган тел төргәге рөхсәт ителмәгән. Төргәкне тикшереп, кирәк булса, аны серверга йөкләгез.',
+	'INVALID_UPLOAD_METHOD'		=> 'Сайланган йөкләү ысулы мөмкин түгел Башка ысулны сайлагыз.',
 
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Language details successfully updated.',
-	'LANGUAGE_ENTRIES'					=> 'Language entries',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Here you are able to change existing language pack entries or not already translated ones.<br /><strong>Note:</strong> Once you changed a language file, the changes will be stored within a separate folder for you to download. The changes will not be seen by your users until you replace the original language files at your webspace (by uploading them).',
-	'LANGUAGE_FILES'					=> 'Language files',
-	'LANGUAGE_KEY'						=> 'Language key',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'This language pack is already installed.',
-	'LANGUAGE_PACK_DELETED'				=> 'The language pack <strong>%s</strong> has been removed successfully. All users using this language have been reset to the boards default language.',
-	'LANGUAGE_PACK_DETAILS'				=> 'Language pack details',
-	'LANGUAGE_PACK_INSTALLED'			=> 'The language pack <strong>%s</strong> has been successfully installed.',
-	'LANGUAGE_PACK_CPF_UPDATE'			=> 'The custom profile fields’ language strings were copied from the default language. Please change them if necessary.',
+	'LANGUAGE_DETAILS_UPDATED'			=> 'Тел турында белешмә яңартылды',
+	'LANGUAGE_ENTRIES'					=> 'Тел мәгълүматы',
+	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Сез монда тел төргәгенең булган яки әле тәрҗемә ителмәгән файл язмаларын үзгәртә аласыз.<br /><strong>Искәртмә:</strong> тел файлын үзгәртсәгез, үзгәртүләр аерым папкага алга таба йөкләү өчен сакланачак. Үзгәртүләр кулланучыларга сез башлангыч тел файлларын серверда алмаштырганчыга кадәр күренмәячәк (яңаны йөкләгәнче).',
+	'LANGUAGE_FILES'					=> 'Тел файллары',
+	'LANGUAGE_KEY'						=> 'Тел ачкычы',
+	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Тел төргәге инде урнаштырылды.',
+	'LANGUAGE_PACK_DELETED'				=> '<strong>%s</strong> тел төргәге бетерелде. Бу телне кулланучылар конференциянең килешү буенча теленә күчерелде.',
+	'LANGUAGE_PACK_DETAILS'				=> 'Тел төргәге турында мәгълүмат',
+	'LANGUAGE_PACK_INSTALLED'			=> 'Тел төргәге <strong>%s</strong> уңышлы урнаштырылды.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Рәвешнең өстәмә кырларның тел юллары килешү буенча тел төргәгеннән күчерелде. Кирәк булса, аларны үзгәртегез.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
-	'LANGUAGE_PACK_LOCALNAME'			=> 'Local name',
-	'LANGUAGE_PACK_NAME'				=> 'Name',
-	'LANGUAGE_PACK_NOT_EXIST'			=> 'The selected language pack does not exist.',
-	'LANGUAGE_PACK_USED_BY'				=> 'Used by (including robots)',
-	'LANGUAGE_VARIABLE'					=> 'Language variable',
-	'LANG_AUTHOR'						=> 'Language pack author',
-	'LANG_ENGLISH_NAME'					=> 'English name',
-	'LANG_ISO_CODE'						=> 'ISO code',
-	'LANG_LOCAL_NAME'					=> 'Local name',
+	'LANGUAGE_PACK_LOCALNAME'			=> 'Җирле исеме',
+	'LANGUAGE_PACK_NAME'				=> 'Исеме',
+	'LANGUAGE_PACK_NOT_EXIST'			=> 'Сайланган тел төргәге юк',
+	'LANGUAGE_PACK_USED_BY'				=> 'Кулланалар (роботларны санап)',
+	'LANGUAGE_VARIABLE'					=> 'Тел үзгәрмәсе',
+	'LANG_AUTHOR'						=> 'Тел төргәге авторы',
+	'LANG_ENGLISH_NAME'					=> 'Инглизчә исеме',
+	'LANG_ISO_CODE'						=> 'ISO коды',
+	'LANG_LOCAL_NAME'					=> 'Җирле исеме',
 
-	'MISSING_LANGUAGE_FILE'		=> 'Missing language file: <strong style="color:red">%s</strong>',
-	'MISSING_LANG_VARIABLES'	=> 'Missing language variables',
-	'MODS_FILES'				=> 'MODs language files',
+	'MISSING_LANGUAGE_FILE'		=> 'Тел файлы юк: <strong style="color:red">%s</strong>',
+	'MISSING_LANG_VARIABLES'	=> 'Булмаган тел үзгәрмәләре',
+	'MODS_FILES'				=> 'Модларның тел файллары',
 
-	'NO_FILE_SELECTED'				=> 'You haven’t specified a language file.',
-	'NO_LANG_ID'					=> 'You haven’t specified a language pack.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your boards default language first.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'No uninstalled language packs',
+	'NO_FILE_SELECTED'				=> 'Тел файлын күрсәтмәдегез.',
+	'NO_LANG_ID'					=> 'Тел төргәген күрсәтмәдегез.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Килешү буенча тел төргәген бетә алмыйсыз.<br />Бу төргәкне бетерү алдыннан, килешү буенча конференция телен алмаштырыгыз',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Барлык мөмкин булган тел төргәкләре урнаштырылды',
 
-	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Remove from storage folder',
+	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Саклау папкасыннан бетерергә',
 
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download format',
-	'SUBMIT_AND_DOWNLOAD'		=> 'Submit and download file',
-	'SUBMIT_AND_UPLOAD'			=> 'Submit and upload file',
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Йөкләү форматын сайларга',
+	'SUBMIT_AND_DOWNLOAD'		=> 'Форманы җибәрергә һәм файлны йөкләргә',
+	'SUBMIT_AND_UPLOAD'			=> 'Форманы җибәрергә һәм файлны серверга йөкләргә',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'The following language files are missing from the %s language folder',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'The following language variables are missing from the <strong>%s</strong> language pack',
+	'THOSE_MISSING_LANG_FILES'			=> 'Түбәндәге тел файллары төргәктә юк %s',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'Тел төргәгендә түбәндәге үзгәрмәләр юк <strong>%s</strong>',
 
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Uninstalled language packs',
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Урнаштыруга мөмкин булган тел төргәкләре',
 
-	'UNABLE_TO_WRITE_FILE'		=> 'The file could not be written to %s.',
-	'UPLOAD_COMPLETED'			=> 'The upload was completed successfully.',
-	'UPLOAD_FAILED'				=> 'The upload failed for unknown reasons. You may need to replace the relevant file manually.',
-	'UPLOAD_METHOD'				=> 'Upload method',
-	'UPLOAD_SETTINGS'			=> 'Upload settings',
+	'UNABLE_TO_WRITE_FILE'		=> 'Файлны %s яздырып булмады.',
+	'UPLOAD_COMPLETED'			=> 'Серверга йөкләү тәмамланды',
+	'UPLOAD_FAILED'				=> 'Серверга йөкләп булмады. Туры килгән файлны кулдан алмаштырырга туры килергә мөмкин.',
+	'UPLOAD_METHOD'				=> 'Серверга йөкләү ысулы',
+	'UPLOAD_SETTINGS'			=> 'Серверга йөкләү көйләүләре',
 
-	'WRONG_LANGUAGE_FILE'		=> 'Selected language file is invalid.',
+	'WRONG_LANGUAGE_FILE'		=> 'Сайланган тел файлы мөмкин түгел',
 ));
 
 ?>

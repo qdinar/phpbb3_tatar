@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* acp_prune [English]
+* acp_prune [Tatar]
 *
 * @package language
-* @version $Id$
+* @version $Id: prune.php 9933 2009-08-06 09:12:21Z marshalrusty $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -37,55 +37,59 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'This section allows you to delete or deactivate users on your board. Accounts can be filtered in a variety of ways; by post count, most recent activity, etc. Criteria may be combined to narrow down which accounts are affected. For example, you can prune users with fewer than 10 posts, who were also inactive after 2002-01-01. Alternatively, you may skip the criteria selection completely by entering a list of users (each on a separate line) into the text field. Take care with this facility! Once a user is deleted, there is no way to reverse the action.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Сез монда конференция кулланучыларын бетерә яки сүндерә аласыз. Хисап язмалар төрле ысуллар белән тәртипләнә ала — хәбәрләр саны, соңгы керү вакыты буенча һәм б. к. Билгеләр чистартылачак хисап язмалар санын кыскарту өчен берләштерелә ала. Мәсәлән, сез конференциядән 01.01.2002 елдан соң кермәгән һәм ун хәбәрдән ким кулланучыларны бетерә аласыз. Шулай ук сез кирәкле кулланучыларны текст юлына кулдан кертеп (һәр кулланучыны аерым юлга) тулысынча билгеләр сайлавын үткәрә аласыз. Бу корал белән сак булыгыз — бетергән кулланучыларны торгызып булмый!',
 
-	'DEACTIVATE_DELETE'			=> 'Deactivate or delete',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Choose whether to deactivate users or delete them entirely. Please note that deleted users cannot be restored!',
-	'DELETE_USERS'				=> 'Delete',
-	'DELETE_USER_POSTS'			=> 'Delete pruned user posts',
-	'DELETE_USER_POSTS_EXPLAIN' => 'Removes posts made by deleted users, has no effect if users are deactivated.',
+	'DEACTIVATE_DELETE'			=> 'Эшен туктатырга яки бетерергә',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Кулланучыларга карата башкарылачак гамәлне сайлагыз. Онытмагыз, бетерелгән кулланучыларны киредән торгызып булмый!',
+	'DELETE_USERS'				=> 'Бетерергә',
+	'DELETE_USER_POSTS'			=> 'Хәбәрләрен шулай ук бетерергә',
+	'DELETE_USER_POSTS_EXPLAIN' => 'Кулланучылар белән хәбәрләрен бетерә. Кулланучылар эшен туктату сайланса эшләми.',
 
-	'JOINED_EXPLAIN'			=> 'Enter a date in <kbd>YYYY-MM-DD</kbd> format.',
+	'JOINED_EXPLAIN'			=> 'Көнне бу форматта кертегез <kbd>ЕЕЕЕ-АА-КК</kbd>.',
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'Enter a date in <kbd>YYYY-MM-DD</kbd> format. Enter <kbd>0000-00-00</kbd> to prune users who never logged in, <em>Before</em> and <em>After</em> conditions will be ignored.',
+	'LAST_ACTIVE_EXPLAIN'		=> 'Көнне <kbd>ЕЕЕЕ-АА-КК</kbd> форматында кертегез. Конференциягә беркайчан да кермәгән кулланучыларны чистарту һәм <em>башлап</em> һәм <em>кадәр</em> шартын исәпләмәү өчен <kbd>0000-00-00</kbd> кертегез.',
 
-	'PRUNE_USERS_LIST'				=> 'Users to be pruned',
-	'PRUNE_USERS_LIST_DELETE'		=> 'With the selected critera for pruning users the following accounts will be removed.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'With the selected critera for pruning users the following accounts will be deactivated.',
+	'PRUNE_USERS_LIST'				=> 'Чистарту исемлеге',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Сайлаган чистарту билгеләре буенча түбәндәге кулланучы хисап язмалары бетереләчәк.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Кертелгән чистарту билгеләре буенча түбәндәге кулланучылар эше туктатылачак.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Enter specific usernames here, they will be used in preference to the criteria above. Founders cannot be pruned.',
+	'SELECT_USERS_EXPLAIN'		=> 'Бу кырга билгеле кулланучылар исемен кертегез, бу очракта өстәрәк куелган билгеләр кулланмаячак. Искәрмә: нигез салучылар бетерелә һәм сүндерелә алмый.',
 
-	'USER_DEACTIVATE_SUCCESS'	=> 'The selected users have been deactivated successfully.',
-	'USER_DELETE_SUCCESS'		=> 'The selected users have been deleted successfully.',
-	'USER_PRUNE_FAILURE'		=> 'No users fit the selected criteria.',
+	'USER_DEACTIVATE_SUCCESS'	=> 'Сайлап алынган кулланучылар эше туктатылды.',
+	'USER_DELETE_SUCCESS'		=> 'Сайлап алынган кулланучылар бетерелде.',
+	'USER_PRUNE_FAILURE'		=> 'Күрсәтелгән билгегә туры килгән кулланучылар юк.',
 
-	'WRONG_ACTIVE_JOINED_DATE'	=> 'The date entered is wrong, it is expected in <kbd>YYYY-MM-DD</kbd> format.',
+	'WRONG_ACTIVE_JOINED_DATE'	=> 'Рөхсәт ителмәгән көн форматы. Көн мондый форматта булырга тиеш <kbd>ЕЕЕЕ-АА-КК</kbd>.',
+
+	'USER_RATIO' => 'Ратио',
+	'USER_DOWNLOADED' => 'Йөкләде',
+	'USER_UPLOADED' => 'Таратты',
 ));
 
 // Forum Pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'This will delete any topic which has not been posted to or viewed within the number of days you select. If you do not enter a number then all topics will be deleted. By default, it will not remove topics in which polls are still running nor will it remove stickies and announcements.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Язмаган һәм күрсәтелгән көн дәвамында аларны беркем дә карамаган барлык темалар бетереләчәк. Көн санын кертмәсәгез, барлык темалар да бетереләчәк. Сораштырулар дәвам иткән һәм беркетелгән темалар һәм белдерүләр булган темалар килешү буенча бетерелмәячәк.',
 
-	'FORUM_PRUNE'		=> 'Forum prune',
+	'FORUM_PRUNE'		=> 'Форумнарны чистарту',
 
-	'NO_PRUNE'			=> 'No forums pruned.',
+	'NO_PRUNE'			=> 'Форумнарны чистарту башкарылмады.',
 
-	'SELECTED_FORUM'	=> 'Selected forum',
-	'SELECTED_FORUMS'	=> 'Selected forums',
+	'SELECTED_FORUM'	=> 'Форум сайланды',
+	'SELECTED_FORUMS'	=> 'Сайланган форумнар',
 
-	'POSTS_PRUNED'					=> 'Posts pruned',
-	'PRUNE_ANNOUNCEMENTS'			=> 'Prune announcements',
-	'PRUNE_FINISHED_POLLS'			=> 'Prune closed polls',
-	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Removes topics with polls which have ended.',
-	'PRUNE_FORUM_CONFIRM'			=> 'Are you sure you want to prune the selected forums with the settings specified? Once removed, there is no way to recover the pruned posts and topics.',
-	'PRUNE_NOT_POSTED'				=> 'Days since last posted',
-	'PRUNE_NOT_VIEWED'				=> 'Days since last viewed',
-	'PRUNE_OLD_POLLS'				=> 'Prune old polls',
-	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Removes topics with polls not voted in for post age days.',
-	'PRUNE_STICKY'					=> 'Prune stickies',
-	'PRUNE_SUCCESS'					=> 'Pruning of forums was successful.',
+	'POSTS_PRUNED'					=> 'Хәбәр бетерелде',
+	'PRUNE_ANNOUNCEMENTS'			=> 'Белдерүләрне бетерергә',
+	'PRUNE_FINISHED_POLLS'			=> 'Тәмамланган сораштыруларны бетерергә',
+	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Сораштырулар тәмамланган темаларны бетерергә.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Бетерелгән темалар һәм хәбәрләрне киредән торгызып булмый. Сез сайлаган форумнарны куелган билгеләр буенча чистартырга телисезме?',
+	'PRUNE_NOT_POSTED'				=> 'Соңгы хәбәрдән соң көн',
+	'PRUNE_NOT_VIEWED'				=> 'Соңгы караудан соң көн',
+	'PRUNE_OLD_POLLS'				=> 'Иске сораштыруларны бетерергә',
+	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Сораштыруларында өстәрәк күрсәтелгән көн дәвамында тавыш бирүләр булмаган темаларны бетерергә',
+	'PRUNE_STICKY'					=> 'Беркетелгән темаларны бетерергә',
+	'PRUNE_SUCCESS'					=> 'Форумнарны чистарту башкарылды',
 
-	'TOPICS_PRUNED'		=> 'Topics pruned',
+	'TOPICS_PRUNED'		=> 'Тема бетерелде',
 ));
 
 ?>

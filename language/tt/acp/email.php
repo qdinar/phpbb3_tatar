@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* acp_email [English]
+* acp_email [Tatar]
 *
 * @package language
-* @version $Id$
+* @version $Id: email.php,v 1.16 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -37,33 +37,33 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Here you can e-mail a message to either all of your users or all users of a specific group <strong>having the option to receive mass e-mails enabled</strong>. To achieve this an e-mail will be sent out to the administrative e-mail address supplied, with a blind carbon copy sent to all recipients. The default setting is to only include 50 recipients in such an e-mail, for more recipients more e-mails will be sent. If you are emailing a large group of people please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time, you will be notified when the script has completed.',
-	'ALL_USERS'						=> 'All users',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Бу форма ярдәмендә сез <strong>электрон хәбәрләр алу шарты кабызылган</strong> барлык кулланучыларга электрон хәбәр җибәрә аласыз. Моны башкару өчен хәбәр администратор адресыннан җибәреләчәк һәм барлык алучылар өчен яшерен күчермә белән тәэмин ителәчәк. Килешү буенча бу хәбәрдә максимум 50 алучы була ала. Алучылар күбрәк булса, берничә хәбәр җибәреләчәк. Хәбәрне зур кешеләр төркеменә җибәрсәгез, бу гамәл кайбер вакытны алачак. Зинһар, түземле булыгыз һәм хәбәрне җибәргәннән соң йөкләү битен туктатмагыз. Җибәрү тәмамлангач, сезгә белдерү киләчәк.',
+	'ALL_USERS'						=> 'Барлык кулланучыларга',
 
-	'COMPOSE'				=> 'Compose',
+	'COMPOSE'				=> 'Хәбәр',
 
-	'EMAIL_SEND_ERROR'		=> 'There were one or more errors while sending the e-mail. Please check the %sError log%s for detailed error messages.',
-	'EMAIL_SENT'			=> 'This message has been sent.',
-	'EMAIL_SENT_QUEUE'		=> 'This message has been queued for sending.',
+	'EMAIL_SEND_ERROR'		=> 'Хәбәр җибәргәндә хаталар килеп чыкты. Хаталар турында тулырак белешмә алу өчен %sхаталар логын%s карагыз.',
+	'EMAIL_SENT'			=> 'Хат җибәрелде.',
+	'EMAIL_SENT_QUEUE'		=> 'Хәбәр киләсе җибәрү чиратына куелды.',
 
-	'LOG_SESSION'			=> 'Log mail session to critical log',
+	'LOG_SESSION'			=> 'Тарату тоташмасының кискен хаталар логын яздырып барырга',
 
-	'SEND_IMMEDIATELY'		=> 'Send immediately',
-	'SEND_TO_GROUP'			=> 'Send to group',
-	'SEND_TO_USERS'			=> 'Send to users',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Entering names here will override any group selected above. Enter each username on a new line.',
+	'SEND_IMMEDIATELY'		=> 'Кичектергесез җибәрү',
+	'SEND_TO_GROUP'			=> 'Төркем катнашучыларына җибәрергә',
+	'SEND_TO_USERS'			=> 'Кулланучыларга җибәрергә',
+	'SEND_TO_USERS_EXPLAIN'	=> 'Хәбәр күрсәтелгән кулланучыларга өстәрәк сайлаган төркем урынына җибәреләчәк. Һәр кулланучы исемен яңа юлга кертегез.',
 
-	'MAIL_BANNED'			=> 'Mail banned users',
-	'MAIL_BANNED_EXPLAIN'	=> 'When sending a mass e-mail to a group you can select here whether banned users will also receive the e-mail.',
-	'MAIL_HIGH_PRIORITY'	=> 'High',
-	'MAIL_LOW_PRIORITY'		=> 'Low',
-	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
-	'MAIL_PRIORITY'			=> 'Mail priority',
-	'MASS_MESSAGE'			=> 'Your message',
-	'MASS_MESSAGE_EXPLAIN'	=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
+	'MAIL_BANNED'			=> 'Тыелган кулланучыларга җибәрергә',
+	'MAIL_BANNED_EXPLAIN'	=> 'Күпләп төркемгә тарату башкарганда бу көйләү тыелган кулланучыларга email-хәбәрләр җибәрелүен билгели.',
+	'MAIL_HIGH_PRIORITY'	=> 'Югары',
+	'MAIL_LOW_PRIORITY'		=> 'Түбән',
+	'MAIL_NORMAL_PRIORITY'	=> 'Гади',
+	'MAIL_PRIORITY'			=> 'Тарату өстенлеге',
+	'MASS_MESSAGE'			=> 'Хәбәрнең тексты',
+	'MASS_MESSAGE_EXPLAIN'	=> 'Гади текстны гына куллана ала. Барлык тамга җибәрү алдыннан бетереләчәк.',
 
-	'NO_EMAIL_MESSAGE'		=> 'You must enter a message.',
-	'NO_EMAIL_SUBJECT'		=> 'You must specify a subject for your message.',
+	'NO_EMAIL_MESSAGE'		=> 'Хәбәр текстын кертергә кирәк',
+	'NO_EMAIL_SUBJECT'		=> 'Хәбәр башламын күрсәтергә кирәк',
 ));
 
 ?>

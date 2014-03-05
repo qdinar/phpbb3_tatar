@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* acp_modules [English]
+* acp_modules [Tatar]
 *
 * @package language
-* @version $Id$
+* @version $Id: modules.php,v 1.13 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -36,49 +36,49 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Here you are able to manage all kind of modules. Please note that the ACP has a three-level menu structure (Category -> Category -> Module) whereby the others having a two-level menu structure (Category -> Module) which must be kept. Please also be aware that you may lock out yourself if you disable or delete the modules responsible for the module management itself.',
-	'ADD_MODULE'					=> 'Add module',
-	'ADD_MODULE_CONFIRM'			=> 'Are you sure you want to add the selected module with the selected mode?',
-	'ADD_MODULE_TITLE'				=> 'Add module',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Сез монда барлык модульләр төрләре белән идарә итә аласыз. Игътибар итегез, администратор бүлеге өч дәрәҗәле меню төзелешеннән тора (Бүленеш → Бүленеш → Модуль), нәтиҗәдә бүлекчәләр ике дәрәҗәле меню төзелешле (Бүленеш → Модуль), бу сакланырга тиеш. Шулай ук исәпкә алыгыз, әгәр сез модульләр идарәсе өчен җавап биргән модульләрне сүндерсәгез яки бетерсәгез, сез үз үзегезгә рөхсәтне тыя аласыз.',
+	'ADD_MODULE'					=> 'Модуль өстәргә',
+	'ADD_MODULE_CONFIRM'			=> 'Сез сайлаган модульне күрсәтелгән куллану ысулы белән өстәргә телисезме?',
+	'ADD_MODULE_TITLE'				=> 'Модуль өстәү',
 
-	'CANNOT_REMOVE_MODULE'	=> 'Unable to remove module, it has assigned children. Please remove or move all children before performing this action.',
-	'CATEGORY'				=> 'Category',
-	'CHOOSE_MODE'			=> 'Choose module mode',
-	'CHOOSE_MODE_EXPLAIN'	=> 'Choose the modules mode being used.',
-	'CHOOSE_MODULE'			=> 'Choose module',
-	'CHOOSE_MODULE_EXPLAIN'	=> 'Choose the file being called by this module.',
-	'CREATE_MODULE'			=> 'Create new module',
+	'CANNOT_REMOVE_MODULE'	=> 'Модульне бетереп булмады, чөнки аңа бүлендек модульләр билгеләнгән. Бу гамәлне башкару алдыннан барлык бүлендек модульләрне бетерегез яки башка урынга күчерегез.',
+	'CATEGORY'				=> 'Бүленеш',
+	'CHOOSE_MODE'			=> 'Модуль куллану ысулы',
+	'CHOOSE_MODE_EXPLAIN'	=> 'Модуль кулланышы ысулын сайлагыз.',
+	'CHOOSE_MODULE'			=> 'Модуль сайлау',
+	'CHOOSE_MODULE_EXPLAIN'	=> 'Бу модуль чыгаручы файлны сайлагыз.',
+	'CREATE_MODULE'			=> 'Модуль ясарга',
 
-	'DEACTIVATED_MODULE'	=> 'Deactivated module',
-	'DELETE_MODULE'			=> 'Delete module',
-	'DELETE_MODULE_CONFIRM'	=> 'Are you sure you want to remove this module?',
+	'DEACTIVATED_MODULE'	=> 'Сүндерелгән модуль',
+	'DELETE_MODULE'			=> 'Модульне бетерергә',
+	'DELETE_MODULE_CONFIRM'	=> 'Сез бу модульне бетерергә телисезме?',
 
-	'EDIT_MODULE'			=> 'Edit module',
-	'EDIT_MODULE_EXPLAIN'	=> 'Here you are able to enter module specific settings.',
+	'EDIT_MODULE'			=> 'Модуль көйләүләре',
+	'EDIT_MODULE_EXPLAIN'	=> 'Бу бит ярдәмендә сез модульне көйли аласыз.',
 
-	'HIDDEN_MODULE'			=> 'Hidden module',
+	'HIDDEN_MODULE'			=> 'Яшерен модуль',
 
-	'MODULE'					=> 'Module',
-	'MODULE_ADDED'				=> 'Module successfully added.',
-	'MODULE_DELETED'			=> 'Module successfully removed.',
-	'MODULE_DISPLAYED'			=> 'Module displayed',
-	'MODULE_DISPLAYED_EXPLAIN'	=> 'If you do not wish to display this module, but want to use it, set this to no.',
-	'MODULE_EDITED'				=> 'Module successfully edited.',
-	'MODULE_ENABLED'			=> 'Module enabled',
-	'MODULE_LANGNAME'			=> 'Module language name',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'Enter the displayed module name. Use language constant if name is served from language file.',
-	'MODULE_TYPE'				=> 'Module type',
+	'MODULE'					=> 'Модуль',
+	'MODULE_ADDED'				=> 'Модуль өстәде.',
+	'MODULE_DELETED'			=> 'Модуль бетерелде.',
+	'MODULE_DISPLAYED'			=> 'Модуль күрсәтү',
+	'MODULE_DISPLAYED_EXPLAIN'	=> 'Әгәр сез модуль исемлектә күрсәтелгәнен һәм аны кулланырга теләсәгез, күчергечне «Юк» халәтенә куегыз.',
+	'MODULE_EDITED'				=> 'Модуль көйләүләре үзгәртелде.',
+	'MODULE_ENABLED'			=> 'Модуль кабызылган',
+	'MODULE_LANGNAME'			=> 'Модуль исеме',
+	'MODULE_LANGNAME_EXPLAIN'	=> 'Күрсәтелгән модуль исемен кертегез. Тел файлында модуль исеме белдерелгән булса, үзгәрмә исемен кулланыгыз.',
+	'MODULE_TYPE'				=> 'Модуль төре',
 
-	'NO_CATEGORY_TO_MODULE'	=> 'Unable to turn category into module. Please remove/move all children before performing this action.',
-	'NO_MODULE'				=> 'No module found.',
-	'NO_MODULE_ID'			=> 'No module id specified.',
-	'NO_MODULE_LANGNAME'	=> 'No module language name specified.',
-	'NO_PARENT'				=> 'No Parent',
+	'NO_CATEGORY_TO_MODULE'	=> 'Бүленешне модуль итеп белдереп булмады. Бу гамәлне башкару алдыннан барлык бүлендек модульләрне бетерегез яки башка урынга күчерегез.',
+	'NO_MODULE'				=> 'Модуль табылмады.',
+	'NO_MODULE_ID'			=> 'Модуль ID сы күрсәтелмәгән.',
+	'NO_MODULE_LANGNAME'	=> 'Модуль исеме күрсәтелмәгән.',
+	'NO_PARENT'				=> 'Нәсел юк',
 
-	'PARENT'				=> 'Parent',
-	'PARENT_NO_EXIST'		=> 'Parent does not exist.',
+	'PARENT'				=> 'Нәсел',
+	'PARENT_NO_EXIST'		=> 'Нәсел юк.',
 
-	'SELECT_MODULE'			=> 'Select a module',
+	'SELECT_MODULE'			=> 'Модуль сайлагыз',
 ));
 
 ?>

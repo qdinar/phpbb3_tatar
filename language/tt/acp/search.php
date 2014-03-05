@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* acp_search [English]
+* acp_search [Tatar]
 *
 * @package language
-* @version $Id$
+* @version $Id: search.php,v 1.21 2007/10/04 15:07:24 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -36,74 +36,74 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Here you can manage the search backend’s indexes. Since you normally use only one backend you should delete all indexes that you do not make use of. After altering some of the search settings (e.g. the number of minimum/maximum chars) it might be worth recreating the index so it reflects those changes.',
-	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Here you can define what search backend will be used for indexing posts and performing searches. You can set various options that can influence how much processing these actions require. Some of these settings are the same for all search engine backends.',
+	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Сез монда эзләү ысулының индекслары белән идарә итә аласыз. Күп очракта бер ысул гына кулланган өчен барлык кулланмаган индексларны бетерергә кирәк. Берәр нинди эзләү көйләвен үзгәрткәннән соң (мәсәлән, минималь/максималь билге саны) башкарылган үзгәртүләрне чагылдыру өчен, яңадан эзләү индексын ясау мәгънәсе бар.',
+	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Сез монда хәбәрләрне берләштерү һәм эзләү башкаруында кулланачак эзләү ысулын күрсәтә аласыз. Шулай ук сез эзләү сорауларын эшкәртү өчен таләп ителгән чыганаклар санына тәэсир иткән төрле көйләүләрне урнаштыра аласыз. Бу көйләүләрнең кайберсе барлык эзләү ысуллары өчен дә бертөрле.',
 
-	'COMMON_WORD_THRESHOLD'					=> 'Common word threshold',
-	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Words which are contained in a greater percentage of all posts will be regarded as common. Common words are ignored in search queries. Set to zero to disable. Only takes effect if there are more than 100 posts. If you want words that are currently regarded as common to be reconsidered you have to recreate the index.',
-	'CONFIRM_SEARCH_BACKEND'				=> 'Are you sure you wish to switch to a different search backend? After changing the search backend you will have to create an index for the new search backend. If you don’t plan on switching back to the old search backend you can also delete the old backend’s index in order to free system resources.',
-	'CONTINUE_DELETING_INDEX'				=> 'Continue previous index removal process',
-	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'An index removal process has been started. In order to access the search index page you will have to complete it or cancel it.',
-	'CONTINUE_INDEXING'						=> 'Continue previous indexing process',
-	'CONTINUE_INDEXING_EXPLAIN'				=> 'An indexing process has been started. In order to access the search index page you will have to complete it or cancel it.',
-	'CREATE_INDEX'							=> 'Create index',
+	'COMMON_WORD_THRESHOLD'					=> 'Уртак сүзләрнең чиге',
+	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Күбесенчә барлык хәбәрләрдә булган сүзләр гомуми итеп саналачак. Гомуми сүзләр эзләү сорауларында кире кагыла. Бу мөмкинлекне сүндерү өчен 0 кертегез. Мөмкинлек 100 артык хәбәр булганда гына эшли. Гомуми сүзләр исемлеген яңарту өчен эзләү индексларын киредән ясарга кирәк.',
+	'CONFIRM_SEARCH_BACKEND'				=> 'Сез башка эзләү ысулына күчәргә телисезме? Күчкәннән соң яңа эзләү ысулын куллану өчен эзләү индексларын ясарга туры киләчәк. Әгәр сез киредән иске эзләү ысулына күчәргә уйламасагыз, система чыганакларын бушайту өчен эзләү индексларын бетерә аласыз.',
+	'CONTINUE_DELETING_INDEX'				=> 'Алдагы индекслар бетерү барышын дәвам итәргә',
+	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Алданрак эзләү индексларын бетерү гамәле кабызылган иде. Эзләү индекслары битенә рөхсәт алу өчен бу гамәлнең тәмамлануын көтәргә яки аны кире кагарга кирәк.',
+	'CONTINUE_INDEXING'						=> 'Алдагы берләштерү барышын дәвам итәргә',
+	'CONTINUE_INDEXING_EXPLAIN'				=> 'Алданрак берләштерү гамәле кабызылган иде. Эзләү индекслары битенә рөхсәт алу өчен бу гамәлнең тәмамлануын көтәргә яки аны кире кагарга кирәк.',
+	'CREATE_INDEX'							=> 'Индекслар ясарга',
 
-	'DELETE_INDEX'							=> 'Delete index',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Deleting the index in progress',
-	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'The search backend is currently cleaning its index. This can take a few minutes.',
+	'DELETE_INDEX'							=> 'Индекслар бетерергә',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'Эзләү индексларын бетерү...',
+	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Эзләү индексларын бетерү бара. Бу гамәл берничә минут дәвам итә ала.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'The MySQL fulltext backend can only be used with MySQL4 and above.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'MySQL fulltext indexes can only be used with MyISAM tables.',
-	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Total number of indexed posts',
-	'FULLTEXT_MYSQL_MBSTRING'				=> 'Support for non-latin UTF-8 characters using mbstring:',
-	'FULLTEXT_MYSQL_PCRE'					=> 'Support for non-latin UTF-8 characters using PCRE:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'If PCRE does not have unicode character properties, the search backend will try to use mbstring’s regular expression engine.',
-	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'This search backend requires PCRE unicode character properties, only available in PHP 4.4, 5.1 and above, if you want to search for non-latin characters.',
-	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Words with at least this many characters will be indexed for searching. You or your host can only change this setting by changing the mysql configuration.',
-	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Words with no more than this many characters will be indexed for searching. You or your host can only change this setting by changing the mysql configuration.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'Тулы текстлы MySQL эзләү ысулы MySQL4 һәм югарыракта гына кулланыла ала.',
+	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'Тулы текстлы MySQL индекслары MyISAM җәдвәлләре белән генә кулланыла ала.',
+	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Гомуми берләштерелгән хәбәрләр саны',
+	'FULLTEXT_MYSQL_MBSTRING'				=> 'Латин булмаган UTF-8 билгеләрен, mbstring кулланганын файдалану:',
+	'FULLTEXT_MYSQL_PCRE'					=> 'Латин булмаган UTF-8 билгеләрен файдалану, PCRE кулланган:',
+	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Әгәр PCRE да юникод билгеләре үзлеге булмаса, эзләү ысулы даими mbstring гыйбарә ысулын кулланып караячак.',
+	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Бу эзләү ысулы өчен юникод PCRE билге үзлекләре кирәк, әгәр сез латин булмаган билгеләрне эзләргә теләсәгез, PHP 4.4, 5.1 һәм югарырак та гына мөмкин.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Монда күрсәтелгән билге саныннан ким булмаган сүзләр эзләү өчен берләштереләчәк. Бу мәгънәне MySQL сервер көйләүләрен төзәтеп кенә үзгәртеп була.',
+   'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Монда күрсәтелгән билге саныннан артмаган сүзләр эзләү өчен берләштереләчәк. Бу мәгънәне MySQL сервер көйләүләрен төзәтеп кенә үзгәртеп була.',
 
-	'GENERAL_SEARCH_SETTINGS'				=> 'General search settings',
-	'GO_TO_SEARCH_INDEX'					=> 'Go to search index page',
+	'GENERAL_SEARCH_SETTINGS'				=> 'Эзләүнең гомуми көйләүләре',
+	'GO_TO_SEARCH_INDEX'					=> 'Эзләү индекслары битенә күчәргә',
 
-	'INDEX_STATS'							=> 'Index statistics',
-	'INDEXING_IN_PROGRESS'					=> 'Indexing in progress',
-	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'The search backend is currently indexing all posts on the board. This can take from a few minutes to a few hours depending on your board’s size.',
+	'INDEX_STATS'							=> 'Индексация статистикасы',
+	'INDEXING_IN_PROGRESS'					=> 'Индексация бара…',
+	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Барлык булган хәбәрләрне берләштерү бара. Бу барыш мәгълүмат күләменә карап берничә минуттан алып берничә сәгатькә кадәр дәвам итә ала.',
 
-	'LIMIT_SEARCH_LOAD'						=> 'Search page system load limit',
-	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'If the 1 minute system load exceeds this value the search page will go offline, 1.0 equals ~100% utilisation of one processor. This only functions on UNIX based servers.',
+	'LIMIT_SEARCH_LOAD'						=> 'Система кабызылганда эзләүне чикләү',
+	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Әгәр система кабызылуы бер минут эчендә бу мәгънәне арттырса, эзләү бите мөмкин булмаячак. 1.0 мәгънәсе бер процессорны йөз процент куллануына тигез. Бу шарт UNIX-сыман серверларда гына эшли.',
 
-	'MAX_SEARCH_CHARS'						=> 'Max characters indexed by search',
-	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Words with no more than this many characters will be indexed for searching.',
-	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Maximum number of allowed keywords',
-	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Maximum number of words the user is able to search for. A value of 0 allows an unlimited number of words.',
-	'MIN_SEARCH_CHARS'						=> 'Min characters indexed by search',
-	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Words with at least this many characters will be indexed for searching.',
-	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Min author name characters',
-	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Users have to enter at least this many characters of the name when performing a wildcard author search. If the author’s username is shorter than this number you can still search for the author’s posts by entering the complete username.',
+	'MAX_SEARCH_CHARS'						=> 'Берләштерү өчен максимум билге',
+	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Кимрәк билге санлы сүзләр берләштереләчәк һәм эзләү өчен мөмкин булачак.',
+	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Максималь эзләнелгән сүзләр саны',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Берьюлы кулланучы эзли алган максималь сүз саны. Чикләүләрне алу өчен 0 куегыз',
+	'MIN_SEARCH_CHARS'						=> 'Берләштерү өчен минимум билге',
+	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Күбрәк билге санлы сүзләр берләштереләчәк һәм эзләү өчен мөмкин булачак.',
+	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Исемнәрдә минималь билге саны',
+	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Авторны битлек буенча эзләү өчен кулланучылар күрсәтелгән саннан ким булмаган билге санын кертергә тиеш була. Әгәр автор исеме күрсәтелгән мәгънәдән ким булса, эзләүне авторның тулы исеме буенча башкарып булачак.',
 
-	'PROGRESS_BAR'							=> 'Progress bar',
+	'PROGRESS_BAR'							=> 'Башкару индикаторы',
 
-	'SEARCH_GUEST_INTERVAL'					=> 'Guest search flood interval',
-	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Number of seconds guests must wait between searches. If one guest searches all others have to wait until the time interval passed.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'All posts up to post id %1$d have now been indexed, of which %2$d posts were within this step.<br />The current rate of indexing is approximately %3$.1f posts per second.<br />Indexing in progress…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'All posts up to post id %1$d have been removed from the search index.<br />Deleting in progress…',
-	'SEARCH_INDEX_CREATED'					=> 'Successfully indexed all posts in the board database.',
-	'SEARCH_INDEX_REMOVED'					=> 'Successfully deleted the search index for this backend.',
-	'SEARCH_INTERVAL'						=> 'User search flood interval',
-	'SEARCH_INTERVAL_EXPLAIN'				=> 'Number of seconds users must wait between searches. This interval is checked independently for each user.',
-	'SEARCH_STORE_RESULTS'					=> 'Search result cache length',
-	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Cached search results will expire after this time, in seconds. Set to 0 if you want to disable search cache.',
-	'SEARCH_TYPE'							=> 'Search backend',
-	'SEARCH_TYPE_EXPLAIN'					=> 'phpBB allows you to choose the backend that is used for searching text in post contents. By default the search will use phpBB’s own fulltext search.',
-	'SWITCHED_SEARCH_BACKEND'				=> 'You switched the search backend. In order to use the new search backend you should make sure that there is an index for the backend you chose.',
+	'SEARCH_GUEST_INTERVAL'					=> 'Кунаклар өчен сораулар арасында аралык',
+	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Кунак чираттагы эзләү соравы алдыннан көтәргә тиеш вакыт секундларда. Әгәр эзләүне бер кунак кулланса, калганнар монда күрсәтелгән вакытны көтәләр.',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Барлык хәбәрләр %1$d санындагы хәбәргә кадәр берләштерелде, алардан бу индексация адымында %2$d хәбәр берләштерелде.<br />Хәзерге индексация тизлеге — чагыштырмача %3$.1f хәбәр секундка.<br />Индексация бара…',
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Барлык хәбәрләр %1$d санлы хәбәргә кадәр эзләү индексларыннан бетерелде.<br />Эзләү индексларын бетерү бара…',
+	'SEARCH_INDEX_CREATED'					=> 'Мәгълүмат нигезенең барлык хәбәрләре берләштерелде.',
+	'SEARCH_INDEX_REMOVED'					=> 'Эзләү индекслары бетерелде.',
+	'SEARCH_INTERVAL'						=> 'Эзләү сораулары арасындагы аралык',
+	'SEARCH_INTERVAL_EXPLAIN'				=> 'Кулланучы чираттагы эзләү соравы алдыннан көтәргә тиеш вакыт секундларда. Бу аралык һәр кулланучы өчен тикшерелә.',
+	'SEARCH_STORE_RESULTS'					=> 'Эзләү нәтиҗәсен кэшлау',
+	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Эзләү нәтиҗәләрен кэшлау дәвамлыгы (секундларда). Нәтиҗәләр кэшлавын сүндерү өчен 0 кертегез.',
+	'SEARCH_TYPE'							=> 'Эзләү ысулы',
+	'SEARCH_TYPE_EXPLAIN'					=> 'phpBB хәбәрләрдә эзләүне башкару өчен ысулны сайларга мөмкинлек бирә. Килешү буенча кертелгән тулы текстлы phpBB эзләү ысулы кулланыла.',
+	'SWITCHED_SEARCH_BACKEND'				=> 'Сез башка эзләү ысулына күчтегез. Бу эзләү ысулы өчен индекслар булганын тикшерегез һәм кирәк булса аларны ясагыз.',
 
-	'TOTAL_WORDS'							=> 'Total number of indexed words',
-	'TOTAL_MATCHES'							=> 'Total number of word to post relations indexed',
+	'TOTAL_WORDS'							=> 'Берләштерелгән сүзләрнең гомуми саны',
+	'TOTAL_MATCHES'							=> 'Хәбәргә бәйле сүзләр саны',
 
-	'YES_SEARCH'							=> 'Enable search facilities',
-	'YES_SEARCH_EXPLAIN'					=> 'Enables user facing search functionality including member search.',
-	'YES_SEARCH_UPDATE'						=> 'Enable fulltext updating',
-	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Updating of fulltext indexes when posting, overridden if search is disabled.',
+	'YES_SEARCH'							=> 'Эзләү мөмкинлекләрен кабызырга',
+	'YES_SEARCH_EXPLAIN'					=> 'Эзләү мөмкинлекләрен кабызу, кулланучылар эзләвен дә.',
+	'YES_SEARCH_UPDATE'						=> 'Тулы текстлы яңартуны кабызырга',
+	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Тулы текстлы индексларны хәбәрләр җибәргәндә яңарту. Эзләү мөмкинлекләре сүндерелгән булса, шарт эшләми.',
 ));
 
 ?>
