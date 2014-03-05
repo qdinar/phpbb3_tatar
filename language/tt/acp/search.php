@@ -10,8 +10,6 @@
 *
 */
 
-//кери тәрҗемәсе
-
 /**
 * DO NOT CHANGE
 */
@@ -55,7 +53,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Эзләү индексларын бетерү бара. Бу гамәл берничә минут дәвам итә ала.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'Тулы текстлы MySQL эзләү ысулы MySQL4 һәм югарыракта гына кулланыла ала.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'Тулы текстлы MySQL индекслары MyISAM җәдвәлләре белән генә кулланыла ала.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'				=> 'Тулы текстлы MySQL индекслары MyISAM җәдвәлләре белән генә кулланыла ала. Тулы текстлы индексларны InnoDB җәдвәлләре белән куллану өчен MySQL 5.6.4 яки соңрак юрамасы таләп ителә.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Гомуми берләштерелгән хәбәрләр саны',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Латин булмаган UTF-8 билгеләрен, mbstring кулланганын файдалану:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Латин булмаган UTF-8 билгеләрен файдалану, PCRE кулланган:',

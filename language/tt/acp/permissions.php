@@ -10,8 +10,6 @@
 *
 */
 
-//кери тәрҗемәсе
-
 /**
 * DO NOT CHANGE
 */
@@ -285,38 +283,6 @@ $lang = array_merge($lang, array(
 
 	'WRONG_PERMISSION_TYPE'				=> 'Дөрес булмаган хокук төре сайланды.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Хокуклар ялгыш форматта куелган, аларны эшкәртеп булмый.',
-	'ROLE_TRACKER_UPLOADER'			=> 'Трекерда аплоадер вазифасы',
-	'ROLE_TRACKER_UPLOADER_DESCR'			=> 'Трекер аплоадерлары өчен',
-	'ROLE_TRACKER_VIPUPLOADER'			=> 'Трекерда VIP аплоадер вазифасы',
-	'ROLE_TRACKER_VIPUPLOADER_DESCR'			=> 'VIP аплоадерлар өчен',
-	'ROLE_TRACKER_SUPERUPLOADER'			=> 'Трекерда супер аплоадер вазифасы',
-	'ROLE_TRACKER_SUPERUPLOADER_DESCR'			=> 'Трекерның супер аплоадерлары өчен',
-	'ROLE_TRACKER_EXPUPLOADER'			=> 'Трекерда тәҗрибәле аплоадер вазифасы',
-	'ROLE_TRACKER_EXPUPLOADER_DESCR'			=> 'Трекерның тәҗрибәле аплоадерлары өчен',
-	'ROLE_TRACKER_TRACKERUSER'			=> 'Трекерда йөкләү мөмкинлеге белән кунак вазифасы',
-	'ROLE_TRACKER_TRACKERUSER_DESCR'			=> 'Торрентларны йөкләү мөмкинлеге белән кунаклар өчен',
-	'ROLE_TRACKER_TRACKERGUEST'			=> 'Трекерда йөкләү мөмкинлеге булмаган кунак вазифасы',
-	'ROLE_TRACKER_TRACKERGUEST_DESCR'			=> 'Торрентларны йөкләү мөмкинлеге булмаган кунаклар өчен',
-	'ROLE_TRACKER_LEECHER'			=> 'Трекерда личер вазифасы',
-	'ROLE_TRACKER_LEECHER_DESCR'			=> 'Трекер личерлары өчен',
-	'ROLE_TRACKER_EXPLEECHER'			=> 'Трекерда тәҗрибәле личер вазифасы',
-	'ROLE_TRACKER_EXPLEECHER_DESCR'			=> 'Трекерның тәҗрибәле личерлары өчен',
-	'ROLE_TRACKER_PRIVUSER'			=> 'Трекерда хосусый кулланучы вазифасы',
-	'ROLE_TRACKER_PRIVUSER_DESCR'			=> 'Трекер бүленеше өчен <b>XXX</b>',
-	'ROLE_TRACKER_BLOCKUSER'			=> 'Трекерда чикләнгән кулланучы вазифасы',
-	'ROLE_TRACKER_BLOCKUSER_DESCR'			=> 'Трекер бүленеше өчен <b>Чүп</b>',
-	'ROLE_TRACKER_SUPERMODERATOR'			=> 'Трекерда супермодератор вазифасы',
-	'ROLE_TRACKER_SUPERMODERATOR_DESCR'			=> 'Трекерның супермодераторлары өчен',
-	'ROLE_TRACKER_ADMINISTRATOR'			=> 'Трекерда администратор вазифасы',
-	'ROLE_TRACKER_ADMINISTRATOR_DESCR'			=> 'Трекерның администраторлары өчен',
-	'ROLE_CHAT_USER'			=> 'Чат кулланучысы вазифасы',
-	'ROLE_CHAT_USER_DESCR'			=> 'Теркәлгән чат кулланучылары өчен',
-	'ROLE_CHAT_GUEST'			=> 'Чат караучысы вазифасы',
-	'ROLE_CHAT_GUEST_DESCR'			=> 'Чат кунаклары, карау һәм хәбәрләр өстәү мөмкинлекләре булган теркәлмәгән кулланучылар өчен',
-	'ROLE_TRACKER_MODERATOR'			=> 'Трекер модераторы вазифасы',
-	'ROLE_TRACKER_MODERATOR_DESCR'			=> 'Трекер модераторлары өчен',
-	'ROLE_TRACKER_JRMODERATOR'			=> 'Трекерның кече модераторы өчен',
-	'ROLE_TRACKER_JRMODERATOR_DESCR'			=> 'Трекерның кече модераторлары өчен',
 ));
 
 ?>

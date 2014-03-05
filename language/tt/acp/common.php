@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_common [Russian]
+* acp_common [Tatar]
 *
 * @package language
 * @version $Id: common.php 10134 2009-09-10 15:32:16Z marshalrusty $
@@ -9,8 +9,6 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
-
-//кери тәрҗемәсе
 
 /**
 * DO NOT CHANGE
@@ -144,6 +142,7 @@ $lang = array_merge($lang, array(
 	'ACP_PRUNING'				=> 'Чистарту',
 
 	'ACP_QUICK_ACCESS'			=> 'Тиз рөхсәт',
+	
 	'ACP_RANKS'					=> 'Дәрәҗә',
 	'ACP_REASONS'				=> 'Шикаятьләр идарәсе',
 	'ACP_REGISTER_SETTINGS'		=> 'Кулланучыларны теркәү',
@@ -337,6 +336,7 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Шарт <var>mbstring.http_input</var> <samp>pass</samp> тигез булырга тиеш. Хәзерге мәгънәне сез <samp>PHP турында белешмә</samp> битендә тикшерә аласыз.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Чыгучы HTTP ташкыны кодлавы дөрес көйләнмәгән',
 	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Шарт <var>mbstring.http_output</var> <samp>pass</samp> тигез булырга тиеш. Хәзерге мәгънәне сез <samp>PHP турында белешмә</samp> битендә тикшерә аласыз.',
+	
 	'FILES_PER_DAY'		=> 'Көнгә өстәүләр',
 	'FORUM_STATS'		=> 'Конференция статистикасы',
 
@@ -478,7 +478,7 @@ $lang = array_merge($lang, array(
 	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>email-адрес тыелганнар исемлегеннән чыгарылды</strong> сәбәбе "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_USER'			=> '<strong>Кулланучы тыелган</strong> сәбәбе "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_IP'			=> '<strong>IP-адрес тыелды</strong> сәбәбе "<em>%1$s</em>"<br />» %2$s',
-	'LOG_BAN_EMAIL'			=> '<strong>email-адрес </strong> "<сәбәбеem>%1$s</em>"<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>email-адрес тыелган</strong> сәбәбе "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_UNBAN_USER'		=> '<strong>Кулланучы рөхсәт ителде</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>IP-адрес рөхсәт ителде</strong><br />» %s',
 	'LOG_UNBAN_EMAIL'		=> '<strong>email-адрес рөхсәт ителде</strong><br />» %s',
@@ -520,7 +520,7 @@ $lang = array_merge($lang, array(
 	'LOG_DELETE_POST'			=> '<strong>Кулланучы җибәргән хәбәр «%1$s» бетерелде </strong><br />» %2$s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Кулланучы ясаган тема «%1$s» бетерелде </strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Күчерелгән темага сылтама бетерелде</strong><br />» %s',
-	'LOG_FORK'					=> '<strong>Темага күчермә ясалды %s',
+	'LOG_FORK'					=> '<strong>Темага күчермә</strong><br />» %s форумыннан ясалды',
 	'LOG_LOCK'					=> '<strong>Тема ябылды</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Хәбәр тыелды</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Хәбәрләр берләштерелде</strong><br />» %s',
@@ -533,7 +533,7 @@ $lang = array_merge($lang, array(
 	'LOG_REPORT_CLOSED'			=> '<strong>Шикаятьне ябарга</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Шикаятьне бетерү</strong><br />» %s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Бүленгән хәбәрләр монде күчерелде</strong><br />» %s',
-	'LOG_SPLIT_SOURCE'			=> '<strong>Хәбәрләр бүленделәр %s',
+	'LOG_SPLIT_SOURCE'			=> '<strong>Хәбәрләр</strong><br />» %s бүленделәр',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Теманы хуплау</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>«%1$s» темасын бу сәбәп буенча кире кагу</strong><br />%2$s',
@@ -692,7 +692,7 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_ADD_FS'			=> '<strong>Серверга тема өстәлде</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Тема бетерелде</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Тема турында мәгълүмат бетерелде</strong><br />» %s',
-	'LOG_THEME_EDIT'			=> '<strong>Тема үзгәртелде <em>%1$s</em></strong><br />» Төр үзгәртелде <em>%2$s</em>',
+	'LOG_THEME_EDIT'			=> '<strong>Тема үзгәртелде <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Тышкы күренеш үзгәртелде <em>%1$s</em></strong><br />» Файл үзгәртелде <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Тема экспортланды</strong><br />» %s',
 	'LOG_THEME_REFRESHED'		=> '<strong>Тема яңартылды</strong><br />» %s',
@@ -746,61 +746,6 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_ADD'			=> '<strong>Сүзләр цензоры өстәлде</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Сүзләр цензоры бетерелде</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Сүзләр цензоры үзгәртелде</strong><br />» %s',
-	'LOG_CONFIG_TRACKER'			=> '<strong>Трекерның гомуми көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_CHAT'			=> '<strong>Чатның гомуми көйләүләрен үзгәртергә</strong>',
-	'LOG_CONFIG_RTRACKER'			=> '<strong>Өстәмә URL анонсы көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_TRESTRICTS'			=> '<strong>Трекер чикләмәләре көйләү үзгәрде</strong>',
-	'LOG_CONFIG_TZONES'			=> '<strong>Трекерның IP өлкәләр көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_ADDFIELDS'			=> '<strong>Өстәмә кырларның үрнәкләр көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_CANDC'			=> '<strong>Хезмәт күрсәтү, бетерү һәм чистарту көйләүләре бетерелде</strong>',
-	'LOG_CONFIG_RSS'			=> '<strong>Торрентлар каналы һәм аңлатмалар көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_IMGSET'			=> '<strong>Постерлар һәм скриншотлар көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_KINOPOISK'			=> '<strong>Киноэзләү парсеры көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_STATUSES'			=> '<strong>Торрентлар халәтен көйләүләр үзгәртелде</strong>',
-	'LOG_CONFIG_GUEST'			=> '<strong>Кунаклар өчен трекер көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_SEEDREQ'			=> '<strong>Сидерларны сорау үзгәртелде</strong>',
-	'LOG_CONFIG_RTRACK'			=> '<strong>Тышкы URL анонсы һәм мультитрекерның көйләүләре үзгәртелде</strong>',
-
-	'LOG_CONFIG_ADDFIELD'			=> '<strong>Өстәмә кырларның көйләүләре үзгәртелде</strong>',
-	'LOG_CONFIG_CRESTRICTS'			=> '<strong>Клиентлар чикләмәсе көйләүләре үзгәртелде</strong>',
-	'LOG_CHAT_DELMESS' => '<strong>Чаттан кулланучы хәбәрләре бетерелде</strong>',
-	'LOG_CHAT_UCLEAN' => '<strong>Чат кулланучылары исемлеге чистартылды</strong>',
-	'LOG_CHAT_MCLEAN' => '<strong>Чат хәбәрләре исемлеге чистартылды</strong>',
-	'LOG_CHAT_ACLEAN' => '<strong>Чатның архив хәбәрләре исемлеге чистартылды</strong>',
-	'LOG_CHAT_UKICK' => '<strong>Чат кулланучысына чиртергә</strong>',
-	'LOG_CHAT_UBAN' => '<strong>Чат кулланучысы тыелды</strong>',
-	'LOG_CHAT_UUNBAN' => '<strong>Чат кулланучысы рөхсәт ителде</strong>',
-
-	'LOG_FORB_CHANGED' => '<strong>Торрент халәте үзгәртелде</strong> "%1$s" - "%2$s"<br />&raquo; <i>%3$s</i>',
-
-));
-
-$lang = array_merge($lang, array(
-	'ACP_CHAT_SETTINGS'			=> 'Чат көйләүләре',
-	'ACP_TRACKER_SETTINGS'			=> 'Трекер көйләүләре',
-	'ACP_KINOPOISK_SETTINGS'			=> 'Киноэзләү парсеры',
-	'ACP_IMGSET_SETTINGS'			=> 'Постерлар һәм скриншотларны көйләү',
-	'ACP_TRESTRICTS_SETTINGS'			=> 'Трекер чикләүләре',
-	'ACP_RSS_SETTINGS'			=> 'Торрентлар һәм аңлатмалар каналлары',
-	'ACP_CANDC_SETTINGS'			=> 'Хезмәт күрсәтү, бетерү һәм чистарту',
-	'ACP_SEEDREQ_SETTINGS'			=> 'Сидерларны сорау',
-	'ACP_RTRACK_SETTINGS'			=> 'Тышкы URL анонсы һәм мультитрекер',
-	'ACP_GUEST_SETTINGS'			=> 'Кунаклар өчен трекер',
-	'ACP_STATUSES_SETTINGS'				=> 'Торрентлар халәте',
-	'ACP_ADDFIELDS_SETTINGS'				=> 'Өстәмә кырлар үрнәге',
-	'ACP_ADDFIELD_SETTINGS'				=> 'Өстәмә кырлар',
-	'ACP_TZONES_SETTINGS'				=> 'Трекерның IP зоналары',
-	'ACP_RTRACKER_SETTINGS'				=> 'Өстәмә URL анонсы',
-
-	'ACP_CRESTRICTS_SETTINGS'				=> 'Клиентларны чикләү',
-	'ACP_TRACKER'					=> 'Трекер',
-	'ADM_PPKBB3CKER_VERSION' => '<a href="%s" title="Юраманы яңартырга"><b>Трекер</b></a> - Юрама: <strong>%s</strong> Бөрмә: <strong>%d</strong> Яңарту: <strong>%s</strong>',
-	'PPKBB3CKER_NEWREVISION' => 'Трекер бөрмәсе: %d, хәзерге трекер бөрмәсе: %d',
-	'PPKBB3CKER_NEWUPDATE' => 'Трекерыгызның яңартуы: %d, хәзерге трекер яңартуы: %d',
-
-	'ACP_USER_TRACKER'				=> 'Трекер',
-	'ACP_USER_RTRACKER'				=> 'Мультитрекер',
-	'ACP_USER_TORRENTS'				=> 'Торрентлар',
-
 	));
+	
 ?>

@@ -10,8 +10,6 @@
 *
 */
 
-//кери
-
 /**
 * DO NOT CHANGE
 */
@@ -56,7 +54,7 @@ $lang = array_merge($lang, array(
 	'ASSIGNED_EXTENSIONS'				=> 'Билгеләнгән көйләүләр',
 	'ASSIGNED_GROUP'					=> 'билгеләнгән киңәйтүләр төркеме',
 	'ATTACH_EXTENSIONS_URL'				=> 'Киңәйтүләр',
-	'ATTACH_EXT_GROUPS_URL'				=> 'Киңәйтмәләр төркеме',
+	'ATTACH_EXT_GROUPS_URL'				=> 'Киңәйтүләр төркеме',
 	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Максималь файл күләме',
 	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Һәр йөкләнелгән файл өчен максималь күләм. Әгәр мәгънә 0 тигез, файл күләме PHP сыйфаты белән генә чикләнгән.',

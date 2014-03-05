@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_board [Russian]
+* acp_board [Tatar]
 *
 * @package language
 * @version $Id: board.php 10080 2009-08-31 14:57:04Z nickvergessen $
@@ -9,8 +9,6 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
-
-//кери тәрҗемәсе
 
 /**
 * DO NOT CHANGE
@@ -42,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Сез монда конференциягә гомуми шартлар, аңа исем һәм тасвирлама бирә аласыз, шулай ук килешү буенча кулланачак сәгать өлкәсен һәм телне күрсәтә аласыз.',
 	'CUSTOM_DATEFORMAT'				=> 'Башка...',
 	'DEFAULT_DATE_FORMAT'			=> 'Дата форматы',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Синтаксис PHP теленең <code><a href="http://www.php.net/date">date</code></a> мөмкинлегенә тиңдәш.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Синтаксис PHP теленең <code><a href="http://www.php.net/date">date</a></code> мөмкинлегенә тиңдәш.',
 	'DEFAULT_LANGUAGE'				=> 'Килешү буенча конференция теле',
 	'DEFAULT_STYLE'					=> 'Килешү буенча конференция стиле',
 	'DISABLE_BOARD'					=> 'Конференцияне сүндерергә',
@@ -549,31 +547,4 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME_EXPLAIN'		=> 'Теркәлгән кулланучының исемен яки булган JID (тиңләштергеч) кертегез. Исемне тикшерү башкарылмаячак. Әгәр исем генә күрсәтелсә, сезнең JID (тиңләштергеч) шул исемнән һәм өстәрәк күрсәткән сервердан төзеләчәк. Алай булмаганда булган JID (тиңләштергеч) күрсәтегез, мәсәлән user@jabber.org.',
 ));
 
-$lang = array_merge($lang, array(
-	'ALLOW_QUICK_REPLY_SMILIES'	=> 'Тиз җавап формасында смайликларны рөхсәт итәргә',
-	'ALLOW_QUICK_REPLY_SMILIES_EXPLAIN'	=> 'Рөхсәт ителгән булса, смайликлар аслыгы тиз җавап формасында күрсәтеләчәк',
-	'ALLOW_QUICK_REPLY_BBCODE'	=> 'ВВ-кодларны тиз җавап формасында рөхсәт итәргә',
-	'ALLOW_QUICK_REPLY_BBCODE_EXPLAIN'	=> 'Рөхсәт ителгән булса, ВВ-кодлар аслыгы тиз җавап формасында күрсәтеләчәк',
-));
-// MOD : MSSTI header (V1.0.1) - Start
-$lang = array_merge($lang, array(
-	'METAS'									=> 'META tags by <a href="http://www.mssti.com/phpbb3/" onclick="window.open(this.href);return false;" >.:: MSSTI ::.</a></legend><em>Meta tags is mainly use for search engine referencing, to get a good position in search engines such as google, fill it with the more informations as possible.</em><br /><br /><legend>',
-	'METATAG_FAVICON'						=> 'Favorite icon',
-	'METATAG_FAVICON_EXPLAIN'				=> 'Adds an image, the so called "favicon", in the addressbar ? ',
-	'METATAG_FAVICON_NOTE'					=> 'Please remind that you should upload an icon (16 x 16 pixels) named <strong>favicon.ico</strong> to the <em>images/icons</em> directory of phpBB!<br />Need one? get it for free at <a href="http://www.html-kit.com/favicon/" onclick="window.open(this.href);return false;">html-kit</a>',
-	'METATAG_AUTHOR'						=> 'Meta tag Owner',
-	'METATAG_AUTHOR_EXPLAIN'				=> 'Owner/Author of the board ( name nick, name and/or email)',
-	'METATAG_KEYWORDS'						=> 'Meta tag Keywords',
-	'METATAG_KEYWORDS_EXPLAIN'				=> 'Define the search keywords for the search engines spiders',
-	'METATAG_KEYWORDS_DYNAMIC'				=> 'Enable dynamic Meta tag Keywords ? ',
-	'METATAG_KEYWORDS_DYNAMIC_EXPLAIN'		=> 'Automatically generates keywords Meta Tag based on forums/topic titles',
-	'METATAG_DESCRIPTION'					=> 'Meta tag Description',
-	'METATAG_DESCRIPTION_EXPLAIN'			=> 'Describe your board in more than 250 words.',
-	'METATAG_DESCRIPTION_DYNAMIC'			=> 'Enable dynamic Meta tag Description ? ',
-	'METATAG_DESCRIPTION_DYNAMIC_EXPLAIN'	=> 'Automatically generates description Meta Tag based on forums/topic descriptions',
-	// Install
-	'METATAG_CONFIRM'						=> 'Install <strong>MSSTI META tags</strong> Mod ?', 
-	'METATAG_INSTALL_CONGRATS'				=> 'Congratulations! : <p>You have now successfully updated the database for <strong>MSSTI META tags</strong> Mod.</p>',
-));
-// MOD : MSSTI header (V1.0.1) - End
 ?>
