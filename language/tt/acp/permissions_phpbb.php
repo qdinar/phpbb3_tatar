@@ -8,6 +8,8 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
+//кери тәрҗемәсе
+
 /**
 * DO NOT CHANGE
 */
