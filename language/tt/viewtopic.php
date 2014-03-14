@@ -10,8 +10,6 @@
 *
 */
 
-//razani, кери
-
 /**
 * DO NOT CHANGE
 */
@@ -39,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ATTACHMENT'						=> 'Өстәү',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Өстәүләр ясау мөмкинлге сүнгән',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Өстәүләр ясау мөмкинлеге сүнгән',
 
 	'BOOKMARK_ADDED'		=> 'Тема кыстыргычларга өстәлде',
 	'BOOKMARK_ERR'			=> 'Теманы кыстыргычларга күчереп булмады. Кабатлап карагыз',
@@ -113,74 +111,7 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'			=> 'WWW',
 	'VOTE_SUBMITTED'		=> 'Рәхмәт, тавышыгыз исәпкә алынды.',
 	'VOTE_CONVERTED'		=> 'Үзгәртелгән сораштыруларда тавышларны үзгәртү кулланылмый',
-
-	'USER_TORRENTS'				=> 'Торрентлар',
-	'USER_COMMENTS'				=> 'Аңлатмалар',
-	'USER_RATIO'				=> 'Ратио',
-	'USER_DOWNLOADS' => 'Йөкләде',
-	'USER_UPLOADS' => 'Таратты',
-	'TORRENT_OPTION' => 'Рәвешләр',
-	'TORRENT_ACTION' => '=>',
-	'TORRENT_LASTSEED'			=> 'Соңгы сидер',
-	'TORRENT_LASTLEECH'			=> 'Соңгы личер',
-	'TORRENT_LAST_SEEDLEECH'			=> '%s элек',
-	'TORRENT_SSPEED' => 'Тарату тизлеге',
-	'TORRENT_LSPEED' => 'Йөкләү тизлеге',
-	'TORRENT_INFO_HEADER_SETSTICKY' => 'Халәтен үзгәртү <b>Трекер яңарышлары</b>',
-	'TORRENT_INFO_HEADER_STICKY' => 'Трекер яңарышы дип билгеләргә',
-	'TORRENT_INFO_HEADER_SETFORBIDDEN' => '<b>Торрент халәтен</b> үзгәртергә</b>',
-	'TORRENT_INFO_HEADER_GETSEED' => '&quot;Сидерларны сорау&quot; башкарырга',
-	'TORRENT_INFO_HEADER_SAYTHANKS'	=> '&quot;Рәхмәт&quot; әйтергә',
-	'TORRENT_INFO_HEADER_TRACKER' => 'Трекер',
-	'TORRENT_INFO_HEADER_NANNOUNCE' => 'Анонс булачак',
-	'TORRENT_INFO_HEADER_AMESSAGE' => 'Хәбәр',
-	'TORRENT_INFO_HEADER_AINTERVAL' => 'Аралык',
-	'TORRENT_INFO_HEADER_ERRCOUNT' => 'Хата',
-	'TORRENT_INFO_HEADER_PEERS' => 'Пирлар',
-
-	'HIDE_TORRBLOCK'	=> 'Торрент буенча мәгълүмат чыгырын яшерергә яки күрсәтергә',
-	'TORRENT_AUTOR'	=> 'Авторы',
-	'TORRENT_STATUS_USER'	=> 'Үзгәртте',
-	'TORRENT_STATUS_REASON'	=> 'Сәбәп',
-	'TORRENT_PRIVATE'	=> 'Хосусый',
-	'TORRENT_PRIVATE_YES'	=> 'Әйе (DHT сүнгән)',
-	'TORRENT_PRIVATE_NO'	=> 'Юк (DHT кабызылган)',
-	'TORRENT_MAGNET_LINK' => 'Магнет сылтама',
-	'TORRENT_MAGNET_GUEST'	=> '<script type="text/javascript">alert(\'%1$s\');</script><a href="%2$s">Темага кайтырга</a>',
-	'TORRENT_MAGNET2_GUEST'	=> 'Әлеге <a href="%1$s"><strong>сылтаманы торрент-клиентыгызда </strong></a> ачыгыз<br /><br /><a href="%2$s">Темага кайтырга</a>',
-	'BLOCKED_REASON'	=> 'Торрент халәтен үзгәртү сәбәбе',
-	'BLOCKED_LOCKED'	=> 'Чираттагы торрент төзәтүләрен тыярга',
-	'BLOCKED_CLOSED'	=> 'Торрентка алдагы аңлатма бирүләрне тыярга (теманы ябарга)',
-	'STICKY_DESCR'		=> 'Ничә көн торрент яңарыш булып исәпләнеп, портал битендә күрсәтеләчәк, (0 &minus; һәрвакыт)',
-	'STICKY_EXPIRE' => 'Торрент яңарыш булып калачак',
-	'REQUEST_SEEDS'		=> "Сидерларны сорау бу торрент өчен <a href='%s'>%s</a>\nСез торрентны йөкләдегез (яки сез аның авторы), ләкин хәзерге вакытта аны сидламыйсыз, таратуга басуыгызны сорыйбыз.\n\n--\nБу хат сидерларны сорау системасы белән үзе ясалды",
-	'REQUEST_SEEDS_SUBJECT'		=> 'Сидерларны сорау',
-	'REQUEST_SEEDS_NEXT'		=> 'Сидерларны сорау мөмкин',
-	'SEEDREQ_COUNT'		=> 'Сидерларны сораулар',
-	'THANKS_COUNT'		=> 'Рәхмәт',
-	'USER_WARNINGS' => 'Кисәтү',
-	'TRACKER_USER_TORRENTS' => 'Төяде',
-	'TRACKER_USER_SEED' => 'Тарата',
-	'TRACKER_USER_LEECH' => 'Йөкли',
-	'TORR_SEEDREQ_SEND' => 'Сидерларны сорау башкарылды',
-	'TORR_THANKS_SEND' => 'Рәхмәтегез исәпләнде',
-	'TORR_STICKY_SET' => 'Торрент халәте трекер Яңарышы итеп үзгәртелде',
-	'TORR_FORB_CHANGED' => 'Торрент халәте үзгәртелде',
-	'TRACKER_REMSEEDS' => '<b>%d</b> сидер тышкы трекерларда',
-	'TRACKER_REMLEECHS' => '<b>%d</b> личер тышкы трекерларда',
-	'TRACKER_REMCOMPLETED' => '<b>%d</b> йөкләүче тышкы трекерларда',
-
-	'TORRENT_NOTIFY_SUBJECT' => 'Торрент халәтен үзгәртү',
-	'TORRENT_NOTIFY_TEXT' => "Торрентыгызның халәтен үзгәртү: <a href='%s'>%s</a>\n\nЯңа халәт: %s\nАлдагы халәт: %s\nХаләт үзгәртелде: %s\nҮзгәртү сәбәбе: %s\nҮзгәртү көне: %s\n\n--\nБу хат торрентларның халәтен белдерүче система белән үзе ясалды",
-	'WAIT' => 'Көтегез',
-	'WO_REM_PEERS' => 'тышкы пирларны исәпләмичә',
-	'SIMILAR_TORRENTS'						=> 'Охшаган торрентлар',
-
-
-	'NO_SELECTION'			=> 'Өземтә өстәү өчен хәбәр текстын сайлагыз',
-	'QUICKQUOTE_TEXT'		=> 'Тиз өземтә',
-	'QUOTE_USERNAME'		=> 'Тиз җавапка кулланучы исемен куярга',
+	
 ));
-
 
 ?>

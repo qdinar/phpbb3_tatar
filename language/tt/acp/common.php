@@ -532,7 +532,7 @@ $lang = array_merge($lang, array(
 	'LOG_POST_EDITED'			=> '<strong>«%1$s» темасындагы хәбәрләрне төзәтү, авторы</strong><br />» %2$s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Шикаятьне ябарга</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Шикаятьне бетерү</strong><br />» %s',
-	'LOG_SPLIT_DESTINATION'		=> '<strong>Бүленгән хәбәрләр монде күчерелде</strong><br />» %s',
+	'LOG_SPLIT_DESTINATION'		=> '<strong>Бүленгән хәбәрләр монда күчерелде</strong><br />» %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Хәбәрләр</strong><br />» %s бүленделәр',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Теманы хуплау</strong><br />» %s',
@@ -608,7 +608,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_JAB_CHANGED'			=> '<strong>Jabber хисап язмасы үзгәртелде</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Jabber серсүзе үзгәртелде</strong>',
-	'LOG_JAB_REGISTER'			=> '<strong>Яңа Jabber хисап язмасы теркәлдеr</strong>',
+	'LOG_JAB_REGISTER'			=> '<strong>Яңа Jabber хисап язмасы теркәлде</strong>',
 	'LOG_JAB_SETTINGS_CHANGED'	=> '<strong>Jabber көйләүләре үзгәртелде</strong>',
 
 	'LOG_LANGUAGE_PACK_DELETED'		=> '<strong>Тел төргәге бетерелде</strong><br />» %s',

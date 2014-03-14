@@ -10,8 +10,6 @@
 *
 */
 
-//кери тәрҗемәсе
-
 /**
 * DO NOT CHANGE
 */
@@ -269,6 +267,7 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON10'		=> 'Кулланучы сурәте 10',
 
 	'INACTIVE_STYLES'			=> 'Эшлексез стильләр',
+
 	'INCLUDE_DIMENSIONS'		=> 'Зурлыгын исәпләргә',
 	'INCLUDE_IMAGESET'			=> 'Рәсемнәр җыелмасын кабызырга',
 	'INCLUDE_TEMPLATE'			=> 'Үрнәкне кабызырга',
@@ -290,6 +289,7 @@ $lang = array_merge($lang, array(
 	'KEEP_IMAGESET'				=> '«%s» рәсемнәр җыелмасын бетермәскә',
 	'KEEP_TEMPLATE'				=> '«%s» үрнәген бетермәскә',
 	'KEEP_THEME'				=> '«%s» темасын бетерергә',
+	
 	'LINE_SPACING'				=> 'Сызыклар арасындагы аралык',
 	'LOCALISED_IMAGES'			=> 'Сурәт башка телләрдә',
 	'LOCATION_DISABLED_EXPLAIN'	=> 'Бу көйләү нәсел ителгән һәм үзгәртелә алмый.',
@@ -433,9 +433,7 @@ $lang = array_merge($lang, array(
 	'UNINSTALLED_TEMPLATE'	=> 'Урнаштыруга мөмкин булган үрнәкләр',
 	'UNINSTALLED_THEME'		=> 'Урнаштырырга мөмкин булган темалар',
 	'UNSET'					=> 'Урнаштырылмаган',
-	'IMG_ICON_POST_QUICKQUOTE'		=> 'Тиз өземтә',
-	'IMG_ICON_SAY_THANKS' => '&quot;Рәхмәт&quot; әйтергә;',
-	'IMG_ICON_SEED_REQUEST' => '&quot;Сидерларны сорау&quot; башкарырга;',
+	
 ));
 
 ?>

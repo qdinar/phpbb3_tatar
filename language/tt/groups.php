@@ -10,8 +10,6 @@
 *
 */
 
-//"кери" тәрҗемәсе. http://forum.belem.ru/index.php?showtopic=274&pid=7469&st=50&#entry7469
-
 /**
 * DO NOT CHANGE
 */
@@ -59,7 +57,7 @@ $lang = array_merge($lang, array(
 	'GROUP_IS_SPECIAL'					=> 'Бу форум администраторы идарә итә торган махсус төркем.', 
 	'GROUP_JOIN'						=> 'Төркемгә керергә',
 	'GROUP_JOIN_CONFIRM'				=> 'Сайлаган төркемгә керергәме?',
-	'GROUP_JOIN_PENDING'				=> 'Төргемгә керергә гариза',
+	'GROUP_JOIN_PENDING'				=> 'Төркемгә керергә гариза',
 	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Бу төркемгә керергә гариза бирергәме?',
 	'GROUP_JOINED'						=> 'Сез сайлаган төркемгә кердегез.',
 	'GROUP_JOINED_PENDING'				=> 'Төркемгә керергә теләк белдергән гаризагыз уңышлы җибәрелде. Зинһар, төркем җитәкчесе раславын көтегез.',

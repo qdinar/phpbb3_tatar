@@ -9,7 +9,6 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
-//razani , аннары кери төзәткән, үзгәрткән
 
 /**
 * DO NOT CHANGE
@@ -65,7 +64,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_SUBJECT_EMAIL'	=> 'Сез хәбәрнең темасын күрсәтергә тиеш.',
 	'EQUAL_TO'				=> 'тигез',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Монда сез аерым кулланчыларны эзләү белән шөгыльләнә аласыз. Барлык кырларны да тутыру мәҗбүри түгел. Үрнәк буенча эзләү өчен * файдаланыгыз. Көннәр керткәндә <kbd>ГГГГ-ММ-ДД</kbd> форматын файдаланыгыз, мәсәлән, <samp>2004-02-29</samp>. Бер яки берничә кулланучыны тамга белән билгеләгез (әгәр алдагы форма күпләп сайлау мөмкинлеге бирсә) һәм кирегә кайту өчен \"Тамгаланганнарны сайларга\" төймәсенә басыгыз.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Монда сез аерым кулланчыларны эзләү белән шөгыльләнә аласыз. Барлык кырларны да тутыру мәҗбүри түгел. Үрнәк буенча эзләү өчен * файдаланыгыз. Көннәр керткәндә <kbd>ГГГГ-ММ-ДД</kbd> форматын файдаланыгыз, мәсәлән, <samp>2004-02-29</samp>. Бер яки берничә кулланучыны тамга белән билгеләгез (әгәр алдагы форма күпләп сайлау мөмкинлеге бирсә) һәм кирегә кайту өчен "Тамгаланганнарны сайларга" төймәсенә басыгыз.',
 	'FLOOD_EMAIL_LIMIT'		=> 'Сез алдагысыннан соң шундук тагын бер email җибәрә алмыйсыз. Зинһар, соңрак кабатлагыз.',
 
 	'GROUP_LEADER'			=> 'Төркем җитәкчесе',
@@ -140,59 +139,10 @@ $lang = array_merge($lang, array(
 	'USER_ONLINE'			=> 'Челтәрдә',
 	'USER_PRESENCE'			=> 'Форумда булу',
 
-	'VIEWING_PROFILE'		=> 'Кулланучы рәвеше %s',
+	'VIEWING_PROFILE'		=> '%s кулланучы рәвеше',
 	'VISITED'				=> 'Соңгы керү',
 
 	'WWW'					=> 'Сәхифә',
-	'TRACKER'				=> 'Трекер',
-	'TRACKER_UP'				=> 'Т',
-	'TRACKER_DOWN'				=> 'Й',
-	'TRACKER_RATIO'				=> 'Р',
-	'TRACKER_TORR'				=> 'Т',
-	'TRACKER_COMM'				=> 'А',
-	'TRACKER_BONUS'				=> 'БА',
-	'TRACKER_UP_DESCR'				=> 'Төялде',
-	'TRACKER_DOWN_DESCR'				=> 'Йөкләнде',
-	'TRACKER_RATIO_DESCR'				=> 'Ратио',
-	'TRACKER_RRATIO_DESCR'				=> 'Чынлыкта ратио',
-	'TRACKER_TORR_DESCR'				=> 'Торрент',
-	'TRACKER_COMM_DESCR'				=> 'Аңлатмалар',
-
-	'TORRENT_INFO_HEADER_TORRENT'		=> 'Төяде',
-	'TORRENT_INFO_HEADER_SEED'		=> 'Тарата',
-	'TORRENT_INFO_HEADER_LEECH'		=> 'Йөкли',
-	'TORRENT_INFO_HEADER_LEAVE'		=> 'Таратмый',
-	'TORRENT_INFO_HEADER_HISTORY'		=> 'Тарих',
-	'TORRENT_INFO_HEADER_FROMTHANKS'		=> 'Рәхмәт әйтте',
-	'TORRENT_INFO_HEADER_TOTHANKS'		=> 'Рәхмәт әйттеләр',
-	'TORRENT_INFO_HEADER_FROMSEEDREQ'		=> 'Сидерларны сорады',
-	'TORRENT_INFO_HEADER_TOSEEDREQ'		=> 'Сидер булып соралды',
-	'TORRENT_INFO_HEADER_FINISHED'		=> 'Йөкләде',
-	'TORRENT_INFO_HEADER_DOWNLOADS'		=> 'Файлларны йөкләде',
-
-	'TORRENT_USER_DATA' => 'Торрентлар мәгълүматы',
-	'TRACKER_USER_DATA' => 'Трекер мәгълүматы',
-	'TRACKER_USER_COMMENTS' => 'Аңлатмалар',
-	'TRACKER_USER_DOWNLOAD' => 'Йөкләде',
-	'TRACKER_USER_UPLOAD' => 'Таратты',
-	'TRACKER_USER_RATIO' => 'Ратио',
-	'TRACKER_USER_PASSKEY' => 'Пасскей',
-	'TRACKER_USER_PASSKEY_SELFVISIBLE' => ' (сезгә генә күренә)',
-	'TRACKER_USER_PASSKEY_ADMVISIBLE' => ' (хуҗага, администраторларга һәм супермодераторларга гына күренә)',
-
-	'UCP_PREFS_TRACKER'	=> 'Трекер көйләүләре',
-	'UCP_PREFS_TRACKER_DETAILS'	=> 'Трекер көйләүләре',
-	'UCP_PREFS_RETRACKER'	=> 'Мультитрекер',
-	'UCP_PREFS_RETRACKER_DETAILS'	=> 'Мультитрекер',
-	'UCP_MAIN_TRACKER' => 'Трекер',
-
-	'POST_FROM_IP' => 'хәбәрләр калдырды',
-	'SEED_FROM_IP' => 'торрентлар тарата',
-	'LEECH_FROM_IP' => 'Торрентны йөкләргә',
-	'REG_FROM_IP' => 'теркәлергә',
-	'TORRENT_FROM_IP' => 'торрентлар йөкләде',
-	'ONLINE_FROM_IP' => 'хәзер форумда',
-	'OFFLINE_FROM_IP' => 'форумга керде',
 ));
 
 ?>

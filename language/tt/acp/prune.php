@@ -10,8 +10,6 @@
 *
 */
 
-//кери тәрҗемәсе
-
 /**
 * DO NOT CHANGE
 */
@@ -62,10 +60,6 @@ $lang = array_merge($lang, array(
 	'USER_PRUNE_FAILURE'		=> 'Күрсәтелгән билгегә туры килгән кулланучылар юк.',
 
 	'WRONG_ACTIVE_JOINED_DATE'	=> 'Рөхсәт ителмәгән көн форматы. Көн мондый форматта булырга тиеш <kbd>ЕЕЕЕ-АА-КК</kbd>.',
-
-	'USER_RATIO' => 'Ратио',
-	'USER_DOWNLOADED' => 'Йөкләде',
-	'USER_UPLOADED' => 'Таратты',
 ));
 
 // Forum Pruning
